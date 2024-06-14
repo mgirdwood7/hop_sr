@@ -1,0 +1,711 @@
+study,group,name,graft,n,age_mean,age_sd,female,bmi_mean,bmi_sd,tegner,age_other,bmi_note,group_indep,group_indep_notes,timepoint_combo,combination_notes
+Arhos 2020a,1,Non-Contact,Mixed,50,20.6,7.2,28,26.4,3.5,NA,NA,NA,1,NA,1,NA
+Arhos 2020a,2,Contact,Mixed,29,22.1,8.3,11,25.4,2.9,NA,NA,NA,1,NA,1,NA
+Barnett 2020,1,Male,Bridge Enhanced ACL Repair (BEAR),28,22,6,0,26.1,4.5,NA,NA,NA,1,NA,1,NA
+Barnett 2020,2,Female,Bridge Enhanced ACL Repair (BEAR),37,17.4,3.1,37,23.6,2.8,NA,NA,NA,1,NA,1,NA
+Bodkin 2020,1,Month 5-6,not stated,122,23.1,10.7,61,NA,NA,8.4,NA,NA,0,Group 5 (repeated measure) is subgroup of other groups,0,NA
+Bodkin 2020,2,Month 6-7,not stated,102,23.2,10,50,NA,NA,8.37,NA,NA,0,Group 5 (repeated measure) is subgroup of other groups,0,NA
+Bodkin 2020,3,Month 7-8,not stated,43,22.9,8.9,20,NA,NA,7.4,NA,NA,0,Group 5 (repeated measure) is subgroup of other groups,0,NA
+Bodkin 2020,4,Month 8-9,not stated,26,23.9,9.3,13,NA,NA,7.58,NA,NA,0,Group 5 (repeated measure) is subgroup of other groups,0,NA
+Bodkin 2020,5,Repeat measure group,not stated,40,20.4,7.1,20,NA,NA,NA,NA,NA,0,Group 5 (repeated measure) is subgroup of other groups,0,NA
+Boo 2020,1,Non-dominant leg injuries,mixed,131,26.9,NA,18,24.9,NA,2.81,NA,NA,1,NA,1,NA
+Boo 2020,2,Dominant leg injuries,mixed,141,25.6,NA,30,24.2,NA,2.91,NA,NA,1,NA,1,NA
+Bookbinder 2020,1,ACLR,Mixed,27,19.7,2.18,20,NA,NA,NA,NA,NA,1,NA,0,NA
+Bookbinder 2020,2,Healthy Control,NA,25,19.52,1.64,16,NA,NA,NA,NA,NA,1,NA,0,NA
+Carolan 2020,1,Primary ACLR,Mixed,298,24.16,4.6,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Cristiani 2020,1,BPTB Standard,BPTB,40,29.3,6.4,15,NA,NA,NA,NA,NA,1,NA,1,NA
+Cristiani 2020,2,BPTB Accelerated,BPTB,40,28.5,5.5,6,NA,NA,NA,NA,NA,1,NA,1,NA
+Cristiani 2020,3,HT Standard,HS,40,28,6.3,11,NA,NA,NA,NA,NA,1,NA,1,NA
+Cristiani 2020,4,HT Accelerated,HS,40,28.8,6.3,13,NA,NA,NA,NA,NA,1,NA,1,NA
+Curran 2020,1,9 Month,Mixed,19,19.5,5.7,11,NA,NA,NA,NA,NA,1,NA,2,NA
+Curran 2020,2,12 months,Mixed,22,20.2,7.8,13,NA,NA,NA,NA,NA,1,NA,2,NA
+Curran 2020,3,18 months,Mixed,20,20.5,6.6,8,NA,NA,NA,NA,NA,1,NA,2,NA
+Curran 2020,4,24 months,Mixed,21,20.5,6.4,13,NA,NA,NA,NA,NA,1,NA,2,NA
+Everhart 2020a,1,Grade 0-1 cartilage damage,Mixed,114,20.5,5.9,50,26.5,5.8,NA,NA,NA,1,NA,1,NA
+Everhart 2020a,2,Grade 2-4 cartilage damage,Mixed,394,25,8.5,239,27.3,5.5,NA,NA,NA,1,NA,1,NA
+Getgood 2020,1,ACLR Alone,HS,180,18.7,3.2,101,22.9,5.7,NA,NA,NA,1,NA,1,NA
+Getgood 2020,2,ACLR. + Lateral extra-articular tenodesis,HS + LET,176,19,3.1,101,23.8,4.7,NA,NA,NA,1,NA,1,NA
+Guney-Deniz 2020,1,Hamstring Tendon,HS,24,26.7,4.6,4,24.2,1.2,NA,NA,NA,1,NA,1,NA
+Guney-Deniz 2020,2,Tibialis Anterior,TA,21,26.4,5.5,4,24.1,1.5,NA,NA,NA,1,NA,1,NA
+Guney-Deniz 2020,3,Quads Tendon,QT,22,27.8,2.8,5,24.4,1.3,NA,NA,NA,1,NA,1,NA
+Guney-Deniz 2020,4,Healthy Control,"NA",20,28.7,3.1,"NA",22.9,2.1,NA,NA,NA,1,NA,1,NA
+Harput 2020a,1,BMI <25,HS,50,27.2,6.7,0,22.3,1.6,4.9,NA,NA,1,NA,1,NA
+Harput 2020a,2,BMI >25,HS,41,30.2,6.9,0,28,2.4,4.9,NA,NA,1,NA,1,NA
+Hart 2020,1,ACLR,HS,118,31,9,42,26,4,NA,NA,NA,NA,NA,0,NA
+Hu 2020,1,ST/G,HS - ST/G,34,33.8,5.3,21,26.4,5.3,NA,NA,NA,1,NA,0,NA
+Hu 2020,2,ST,HS - ST,50,32.7,5.1,20,27.6,4.8,NA,NA,NA,1,NA,0,NA
+Hunnicutt 2020a,1,All,QT,320,18.1,3.1,164,23.8,3.7,NA,NA,NA,NA,NA,1,NA
+Iwame 2020,1,Group 1,HS - ST/G or ST,101,25.1,11.1,47,23.3,3.4,NA,NA,NA,NA,NA,0,NA
+Joseph 2020,1,Lemaire Group,HT + LET,35,23,6.3,7,23.5,2.5,7.5,NA,NA,1,NA,0,NA
+Joseph 2020,2,Reference,HT,52,34.2,10.5,23,23.9,2.7,6.5,NA,NA,1,NA,0,NA
+Kew 2020,1,Femoral nerve block (Femoral + Fem&Sciatic),mixed,83,22.59,9.37,43,NA,NA,8.59,NA,NA,1,NA,0,NA
+Kew 2020,2,No femoral block (Sciatic+saphenous & saphenous),mixed,86,22.5,10.5,46,NA,NA,8.21,NA,NA,1,NA,0,NA
+Kim 2020,1,ACLR,mixed,20,23.2,1.1,4,24.1,0.8,NA,NA,NA,1,NA,0,NA
+Kim 2020,2,Healthy Control,"NA",30,22.7,0.8,8,23.8,0.9,NA,NA,NA,1,NA,0,NA
+Krishna 2020,1,5 Strand Graft,HS,28,26.3,7.3,5,24.4,3.7,NA,NA,NA,1,NA,0,NA
+Krishna 2020,2,4 Strand Graft,HS,28,27.6,7.3,8,25,3.9,NA,NA,NA,1,NA,0,NA
+Lee 2020,1,Group 1,HS - Single bundle,54,25.9,9.4,11,23.6,3.7,7.8,NA,NA,NA,NA,0,NA
+Nakanishi 2020,1,20-25 years old,HS - Double bundle,56,23,1.9,29,NA,NA,NA,NA,NA,NA,NA,0,NA
+Norte 2020,1,ACLR,mixed,80,21.7,7.8,38,NA,NA,NA,NA,NA,1,NA,0,NA
+Norte 2020,2,Healthy Control,"NA",80,22.1,4.1,43,NA,NA,NA,NA,NA,1,NA,0,NA
+O'Connor 2020,1,Group 1,mixed,452,25.5,6.1,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Patterson 2020a,1,ACLR,HS,59,33,16,22,25.6,3.6,NA,NA,NA,1,NA,0,NA
+Patterson 2020a,2,Healthy Control,"NA",41,NA,NA,14,24.6,3.1,NA,24 Median,NA,1,NA,0,NA
+Pei-An 2020,1,Acute,ACLD,28,33,13,7,26,5,NA,NA,NA,1,NA,2,NA
+Pei-An 2020,2,Chronic,ACLD,30,32,12,10,26,4,NA,NA,NA,1,NA,2,NA
+Piussi 2020,1,Male,Mixed,120,28.7,9.6,0,24.4,2.5,8,NA,NA,1,NA,0,NA
+Piussi 2020,2,Female,mixed,208,24.5,9.7,208,22.7,2.8,8,NA,NA,1,NA,0,NA
+Rhim 2020,1,ACLR,HS,32,30,7,20,22,2,NA,NA,NA,1,NA,0,NA
+Rhim 2020,2,Healthy Control,"NA",32,29,8,17,23,1,NA,NA,NA,1,NA,0,NA
+Riesterer 2020,1,Group 1,HS - ST ,80,29,9,26,NA,NA,NA,NA,NA,NA,NA,0,NA
+Roger 2020,1,4ST,HS - ST,33,30.52,8.9,7,24.3,3.3,NA,NA,NA,1,NA,1,NA
+Roger 2020,2,ST/G,HS - ST/G,27,30.3,8.5,4,24.2,2.4,NA,NA,NA,1,NA,1,NA
+Sherman 2020,1,IKDC Not Met,mixed,111,18,5,51,NA,NA,NA,NA,NA,NA,NA,0,NA
+Stropnik 2020,1,Normal IKDC,HS,21,28.3,11.5,7,24.3,2.9,7.2,NA,NA,1,NA,1,NA
+Stropnik 2020,2,Sub-normal IKDC,HS,39,33.7,11.4,12,26.5,4,6.4,NA,NA,1,NA,1,NA
+Welling 2020,1,RTS,mixed,46,25.5,5.8,13,NA,NA,NA,NA,NA,1,NA,1,NA
+Welling 2020,2,No RTS,mixed,18,33.6,12.2,7,NA,NA,NA,NA,NA,1,NA,1,NA
+Yuya 2020,1,Excellent pre QSI,HS,122,22.9,8.5,38,22.4,3,7.1,NA,NA,1,NA,1,NA
+Yuya 2020,2,Good pre QSI,HS,166,23.6,9.2,86,22.3,3,7.3,NA,NA,1,NA,1,NA
+Yuya 2020,3,Moderate pre QSI,HS,90,21.9,7.9,48,22.5,2.8,7,NA,NA,1,NA,1,NA
+Yuya 2020,4,Poor pre QSI,HS,42,24,10.3,26,22.1,3.3,7.1,NA,NA,1,NA,1,NA
+Sipka 2019,1,Group 1,Not stated,65,28.5,8.1,21,NA,NA,NA,NA,NA,NA,NA,0,NA
+Akoto 2019,1,QT,QT,41,29,10,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Akoto 2019,2,HT,HS - ST,41,28,10,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Almeida 2019,1,Group 1,mixed,70,27,6.3,6,27.6,4,NA,NA,NA,NA,NA,0,NA
+Bailey 2019,1,Femoral nerve block,BPTB,38,24.4,8.8,20,24.5,4.2,NA,NA,NA,1,NA,1,NA
+Bailey 2019,2,Adductor canal block,BPTB,40,21,7.3,23,24.9,4.7,NA,NA,NA,1,NA,1,NA
+Batty 2019,1,100,HS,100,26.6,8,46,NA,NA,NA,NA,NA,NA,NA,0,NA
+Beischer 2019,1,Male,mixed,98,NA,NA,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Beischer 2019,2,Female,mixed,139,NA,NA,139,NA,NA,NA,NA,NA,1,NA,0,NA
+Cristiani 2019,1,Male,mixed,2223,NA,NA,0,NA,NA,7,28.3 (10.7) whole cohort M+F,NA,1,NA,0,NA
+Cristiani 2019,2,Female,mixed,1870,NA,NA,1870,NA,NA,7,28.3 (10.7) whole cohort M+F,NA,1,NA,0,NA
+Dempsey 2019,1,All included,mixed,60,22.4,9.2,31,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (HS/BPTB),0,NA
+Dempsey 2019,2,Hamstring Graft,HS,28,NA,NA,NA,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (HS/BPTB),0,NA
+Dempsey 2019,3,Patellar graft,BPTB,32,NA,NA,NA,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (HS/BPTB),0,NA
+Dobija 2019,1,ACLD,ACLD,33,36.8,10.4,13,24.5,3.7,NA,NA,NA,1,NA,0,NA
+Dobija 2019,2,Healthy Control,"NA",33,36.8,11,16,23.8,3.3,NA,NA,NA,1,NA,0,NA
+Ebert 2019,1,Group 1,LARS + HS,50,26.3,9.6,18,24.8,4,NA,NA,NA,NA,NA,0,NA
+Huber 2019,1,PTG,BPTB,226,30,11,99,NA,NA,NA,NA,NA,1,NA,1,NA
+Huber 2019,2,HTG,HS,238,30,11,88,NA,NA,NA,NA,NA,1,NA,1,NA
+Hughes 2019a,1,QT 5-8,QT,39,23,NA,14,NA,NA,NA,NA,NA,1,NA,1,NA
+Hughes 2019a,2,BPTB 5-8,BPTB,15,24,NA,5,NA,NA,NA,NA,NA,1,NA,1,NA
+Hughes 2019a,3,HS 5-8,HS,19,23,NA,13,NA,NA,NA,NA,NA,1,NA,1,NA
+Hughes 2019a,4,QT 9-15,QT,29,23,NA,14,NA,NA,NA,NA,NA,1,NA,1,NA
+Hughes 2019a,5,BPTB 9-15,BPTB,10,23,NA,2,NA,NA,NA,NA,NA,1,NA,1,NA
+Hughes 2019a,6,HS 9-15,HS,13,23,NA,7,NA,NA,NA,NA,NA,1,NA,1,NA
+Keays 2019,1,ACLD,ACLD,55,28,9.7,22,NA,NA,NA,NA,NA,NA,NA,0,NA
+Kouloumentas 2019,1,Group A,HS - ST4,45,27.6,11.4,17,25.6,2.8,NA,NA,NA,1,NA,1,NA
+Kouloumentas 2019,2,Group B,HS - ST/G,45,29.7,11,18,24.8,2.6,NA,NA,NA,1,NA,1,NA
+Krolikowska 2019,1,Group I,HS,77,29.23,7.36,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Krolikowska 2019,2,Group II,HS,66,29.44,8.99,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Krolikowska 2019,3,Healthy Control,"NA",98,27.74,8.42,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kuenze 2019a,1,Men,mixed,29,20.8,NA,0,NA,NA,9,Range 13.0-36.0,NA,1,NA,1,NA
+Kuenze 2019a,2,Women,mixed,31,18.7,NA,31,NA,NA,9,Range 14-34,NA,1,NA,1,NA
+Kuenze 2019b,1,BTB,BPTB,190,20.4,3.9,102,NA,NA,NA,NA,NA,0,"Group 1/2 are indep, 3/4 are indep, 5/6 are indep",0,NA
+Kuenze 2019b,2,HSA,HS,118,21.7,5.8,60,NA,NA,NA,NA,NA,0,"Group 1/2 are indep, 3/4 are indep, 5/6 are indep",0,NA
+Kuenze 2019b,3,Male,mixed,146,21.5,4.7,0,NA,NA,NA,NA,NA,0,"Group 1/2 are indep, 3/4 are indep, 5/6 are indep",0,NA
+Kuenze 2019b,4,Female,mixed,162,20.3,4.7,162,NA,NA,NA,NA,NA,0,"Group 1/2 are indep, 3/4 are indep, 5/6 are indep",0,NA
+Kuenze 2019b,5,Less than 12 months,mixed,230,20.8,5.1,118,NA,NA,NA,NA,NA,0,"Group 1/2 are indep, 3/4 are indep, 5/6 are indep",0,NA
+Kuenze 2019b,6,More than 12 months,mixed,78,21.3,3.6,44,NA,NA,NA,NA,NA,0,"Group 1/2 are indep, 3/4 are indep, 5/6 are indep",0,NA
+Lee 2019,1,S group,HS - ST/G Single,60,27.4,6.6,3,NA,NA,6.4,NA,NA,1,NA,1,NA
+Lee 2019,2,D group,HS - ST/G Dual,60,26.9,7.3,5,NA,NA,6.5,NA,NA,1,NA,1,NA
+Leister 2019,1,IB,ACL repair - IB,25,35.56,11.9,16,24.35,3.26,NA,NA,NA,1,NA,1,NA
+Leister 2019,2,AI,HS,21,33.62,10.08,10,24.83,2.94,NA,NA,NA,1,NA,1,NA
+Leister 2019,3,Healthy Control,"NA",42,30.37,6.61,22,22.85,3.56,NA,NA,NA,1,NA,1,NA
+Mariani 2019,1,Group 1,BPTB,59,23.69,0.71,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Miles 2019,1,BPTB,BPTB,22,23.4,4.4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Miles 2019,2,HT,HS,22,26.1,4.4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Miles 2019,3,Healthy Control,"NA",22,23.1,3.4,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Murray 2019b,1,Group 1,BEAR,62,19.4,5.1,36,24.7,3.8,NA,NA,NA,NA,NA,0,NA
+Norte 2019a,1,ACLR,mixed,72,26,9.3,40,NA,NA,8.1,NA,NA,1,NA,0,NA
+Norte 2019a,2,Healthy Control,"NA",30,22.7,4.6,18,NA,NA,7.2,NA,NA,1,NA,0,NA
+Norte 2019b,1,High Physical Activity,mixed,39,21.4,7.1,18,NA,NA,NA,NA,NA,1,NA,1,NA
+Norte 2019b,2,Low Physical Activity,mixed,38,21.7,8.5,17,NA,NA,NA,NA,NA,1,NA,1,NA
+Peebles 2019b,1,ACLR,mixed,25,18.7,3,19,NA,NA,NA,NA,NA,1,NA,0,NA
+Peebles 2019b,2,Healthy Control,"NA",18,22.2,3.8,18,NA,NA,NA,NA,NA,1,NA,0,NA
+Raoul 2019,1,Group 1,mixed,234,28.4,8.6,61,23.6,3.3,NA,NA,NA,NA,NA,0,NA
+Shibata 2019,1,All,HS,386,23.7,9.5,181,22.6,3.3,7.1,NA,NA,0,Group 1 is whole cohort of 2 and 3 (men and women)),1,NA
+Shibata 2019,2,Male,HS,205,NA,NA,0,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (men and women)),1,NA
+Shibata 2019,3,Female,HS,181,NA,NA,181,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (men and women)),1,NA
+Strong 2019,1,ACLR,mixed,33,NA,NA,12,27.2,3.3,NA,NA,NA,1,NA,1,NA
+Strong 2019,2,ACLPT,ACLD,37,NA,NA,14,28.9,4.6,NA,NA,NA,1,NA,1,NA
+Strong 2019,3,Healthy Control,"NA",33,NA,NA,12,24.6,2.5,NA,NA,NA,1,NA,1,NA
+Sundemo 2019,1,Group 1,mixed,101,28.7,8.7,32,NA,NA,NA,NA,NA,NA,NA,0,NA
+Welling 2019,1,ACLR,mixed,38,24.2,4.7,0,NA,NA,9,NA,NA,1,NA,0,NA
+Welling 2019,2,Healthy Control,"NA",30,22.8,2.5,0,NA,NA,9,NA,NA,1,NA,0,NA
+Barie 2018,1,Group 1,QTPB,69,27,NA,27,NA,NA,NA,NA,NA,NA,NA,0,NA
+Blakeney 2018,1,G6M,not stated,371,28,9.9,84,24,3.3,NA,NA,NA,0,overlap between G6M and GTR - GTR = 33 of G6M participants retested,0,NA
+Blakeney 2018,2,GTR,not stated,33,22.9,6.2,8,23.2,3,NA,NA,NA,0,overlap between G6M and GTR - GTR = 33 of G6M participants retested,0,NA
+Blakeney 2018,3,Healthy Control,"NA",39,26.5,8,10,21.6,3,NA,NA,NA,0,overlap between G6M and GTR - GTR = 33 of G6M participants retested,0,NA
+Calvo-Lobo 2018,1,ACLR,mixed,40,33.02,8.7,15,24.26,3.55,NA,NA,NA,1,NA,0,NA
+Calvo-Lobo 2018,2,Healthy Control,"NA",40,35.9,10.12,20,23.5,3,NA,NA,NA,1,NA,0,NA
+Czamara 2018,1,ACLR,HS,30,30.23,9.8,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Czamara 2018,2,Healthy Control,"NA",30,23.7,3.17,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Ebert 2018,1,Group 1,HS,111,27.3,9.1,38,25.5,3.6,NA,NA,NA,NA,NA,0,NA
+Edwards 2018,1,RTS,HS,72,22.9,6.4,22,NA,NA,NA,NA,NA,1,NA,1,NA
+Edwards 2018,2,No RTS,HS,41,31.1,8.3,16,NA,NA,NA,NA,NA,1,NA,1,NA
+Fischer 2018,1,Quadriceps,QT,61,21.7,7.4,27,NA,NA,NA,NA,NA,1,NA,1,NA
+Fischer 2018,2,Hamstrings,HS,63,21.5,6.9,16,NA,NA,NA,NA,NA,1,NA,1,NA
+Flosadottir 2018,1,Exercise alone,ACLD,20,25.7,4.8,7,23.4,2.4,9,NA,NA,1,NA,1,NA
+Flosadottir 2018,2,Exercise + ACLR,mixed,46,26.7,5.4,11,24.2,3.3,8.5,NA,NA,1,NA,1,NA
+Flosadottir 2018,3,ACLX,mixed,23,25.7,4.8,7,23.4,2,8,NA,NA,1,NA,1,NA
+Grindem 2018,1,Group 1,ACLD,118,28.6,10.5,60,24.51,3.7,NA,NA,NA,NA,NA,0,NA
+Gupta 2018,1,BPTB,BPTB,80,NA,NA,6,NA,NA,NA,24 MD,NA,1,NA,1,NA
+Gupta 2018,2,STGPI,HS ,85,NA,NA,7,NA,NA,NA,24 MD,NA,1,NA,1,NA
+Gupta 2018,3,STGF,HS,84,NA,NA,9,NA,NA,NA,24 MD,NA,1,NA,1,NA
+Harput 2018,1,Group 1,HS,72,28,7.6,0,24.2,4.2,7.3,NA,NA,NA,NA,0,NA
+Johnson 2018,1,ACLR,BPTB,67,21.34,5.73,24,NA,NA,NA,NA,NA,1,NA,0,NA
+Johnson 2018,2,Healthy Control,"NA",10,23.5,3.44,4,NA,NA,NA,NA,NA,1,NA,0,NA
+King 2018,1,Group 1,mixed,156,24.8,4.8,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Kline 2018,1,ACLR,mixed,20,22.8,NA,11,NA,NA,5.5,Range 15-45,NA,1,NA,0,NA
+Kline 2018,2,Healthy Control,"NA",45,25.8,NA,22,NA,NA,6,Range 15-45,NA,1,NA,0,NA
+Kovalak 2018,1,Group A ACLR,HS,43,32.56,4.89,0,25.19,3.22,NA,NA,NA,1,NA,0,NA
+Kovalak 2018,2,Group B Non reconstructed,ACLD,39,31.67,7.27,0,24.76,3.27,NA,NA,NA,1,NA,0,NA
+Kwak 2018,1,Allograft,BPTB,45,34.5,12.8,7,25.2,4,NA,NA,NA,1,NA,1,NA
+Kwak 2018,2,Autograft,BPTB Autograft,45,34.5,12.8,7,25.3,4.5,NA,NA,NA,1,NA,1,NA
+Labanca 2018,1,NMES+STSTS,BPTB,21,23.2,4.6,0,NA,NA,8.3,NA,NA,1,NA,1,NA
+Labanca 2018,2,STSTS,BPTB,21,21.1,3.3,0,NA,NA,8.2,NA,NA,1,NA,1,NA
+Labanca 2018,3,"NAT",BPTB,21,22,3.2,0,NA,NA,8.1,NA,NA,1,NA,1,NA
+Lee 2018a,1,Group 1,HS,75,27.5,9.2,NA,NA,NA,6.5,NA,NA,NA,NA,0,NA
+Lee 2018b,1,PFOA,HS,19,36.2,11.1,3,24.2,2.8,NA,NA,NA,1,NA,1,NA
+Lee 2018b,2,No PFOA,HS,73,28.8,8.4,4,24.6,3.3,NA,NA,NA,1,NA,1,NA
+Meierbachtol 2018,1,Group 1,mixed,58,21.2,7.8,37,NA,NA,NA,NA,NA,NA,NA,0,NA
+Nishio 2018,1,Group Y,HS,56,28,NA,25,23,3,NA,Range 20-39,NA,NA,NA,0,NA
+Norte 2018,1,Healthy Control,"NA",30,22.7,4.6,18,NA,NA,7.2,NA,NA,1,NA,1,NA
+Norte 2018,2,Early,mixed,34,22.5,6.3,14,NA,NA,8.4,NA,NA,1,NA,1,NA
+Norte 2018,3,Late,mixed,30,24.9,5.9,20,NA,NA,8.4,NA,NA,1,NA,1,NA
+Novaretti 2018,1,Group 1,not stated,58,34.5,11.3,11,NA,NA,NA,NA,NA,NA,NA,0,NA
+O'Malley 2018,1,ACLR,BPTB,118,23.6,5.8,0,NA,NA,NA,NA,NA,1,NA,0,NA
+O'Malley 2018,2,Healthy Control,"NA",44,24.1,3.6,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Pamukoff 2018,1,ACLR,mixed,38,21.9,2.4,27,23.9,3.8,7,NA,NA,1,NA,0,NA
+Pamukoff 2018,2,Healthy Control,"NA",38,21.9,1.3,27,23.2,2.8,6.8,NA,NA,1,NA,0,NA
+Runner 2018,1,Adductor Canal Block,mixed,38,25.1,1.8,22,25,0.7,NA,NA,NA,1,NA,1,NA
+Runner 2018,2,Femoral nerve block,mixed,35,24.2,1.7,20,23.3,0.5,NA,NA,NA,1,NA,1,NA
+Van Yperen 2018,1,Operative,BPTB,25,NA,NA,6,NA,NA,NA,NA,NA,1,NA,1,NA
+Van Yperen 2018,2,Non-operative,ACLD,25,NA,NA,6,NA,NA,NA,NA,NA,1,NA,1,NA
+Webster 2018,1,Return to competitive sport,HS,158,26,8,41,NA,NA,NA,NA,NA,1,NA,0,NA
+Webster 2018,2,No Return to sport,HS,477,29,11,205,NA,NA,NA,NA,NA,1,NA,0,NA
+Welling 2018a,1,Males,mixed,45,25.4,7.2,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Welling 2018a,2,Females,mixed,20,22.8,6.5,20,NA,NA,NA,NA,NA,1,NA,1,NA
+Welling 2018b,1,Group 1,mixed,62,24.2,6.2,17,NA,NA,NA,NA,NA,NA,NA,0,NA
+Wellsandt 2018b,1,Operative,mixed,83,NA,NA,27,26.6,4.3,NA,NA,NA,1,NA,1,NA
+Wellsandt 2018b,2,Non-operative,ACLD,22,NA,NA,12,26.5,4.5,NA,NA,NA,1,NA,1,NA
+Baumgart 2017,1,Group 1,BPTB,50,29.2,8.5,16,26.7,4.6,NA,NA,NA,NA,NA,0,NA
+Bodkin 2017,1,Early,mixed,17,21.8,4.2,11,NA,NA,7.4,NA,NA,1,NA,1,NA
+Bodkin 2017,2,Middle,mixed,17,20.1,1.5,14,NA,NA,6.4,NA,NA,1,NA,1,NA
+Bodkin 2017,3,Late,mixed,17,26.7,4.5,11,NA,NA,6.5,NA,NA,1,NA,1,NA
+Chen 2017,1,ACLR,mixed,50,28,6,0,NA,NA,5.4,NA,NA,1,NA,1,NA
+Chen 2017,2,Healthy Control - Basketball,"NA",26,21,2,0,NA,NA,7,NA,NA,1,NA,1,NA
+Chen 2017,3,Healthy Control,"NA",31,24,3,0,NA,NA,5.2,NA,NA,1,NA,1,NA
+Christensen 2017,1,Femoral nerve block,mixed,230,25.4,9.1,101,25.8,4.9,NA,NA,NA,1,NA,1,NA
+Christensen 2017,2,Adductor canal block,mixed,30,28.9,8.6,17,26.6,4.8,NA,NA,NA,1,NA,1,NA
+Drocco 2017,1,ST3,HS,45,29.5,10,11,23.3,2.8,7.2,NA,NA,1,NA,1,NA
+Drocco 2017,2,GST,HS,45,27.7,9,18,23.2,2.9,6.9,NA,NA,1,NA,1,NA
+Engelen-VanMelick 2017,1,Men BPTB,BPTB,24,36.9,8.9,0,25.4,2.4,NA,NA,NA,1,NA,1,NA
+Engelen-VanMelick 2017,2,Men STG,HS - ST/G,27,37.6,9.8,0,25.9,2.7,NA,NA,NA,1,NA,1,NA
+Engelen-VanMelick 2017,3,Healthy Control - Men,"NA",22,35.5,10.6,0,24.3,2.42,NA,NA,NA,1,NA,1,NA
+Engelen-VanMelick 2017,4,Women BPTB,BPTB,23,36,11,23,23.2,4.3,NA,NA,NA,1,NA,1,NA
+Engelen-VanMelick 2017,5,Women STG,HS - ST/G,23,33.5,10,23,23.1,4.1,NA,NA,NA,1,NA,1,NA
+Engelen-VanMelick 2017,6,Healthy Control - Women,"NA",22,31.5,11.9,22,23.3,3.2,NA,NA,NA,1,NA,1,NA
+Falstrom 2017,1,ACLR,mixed,77,18.4,2.3,77,22.8,2.7,NA,NA,NA,1,NA,0,NA
+Falstrom 2017,2,Healthy Control,"NA",77,22.1,2,77,22.1,2,NA,NA,NA,1,NA,0,NA
+Fischer 2017,1,Female,not stated,60,20.8,8,60,21.9,2,NA,NA,NA,1,NA,1,NA
+Fischer 2017,2,Male,not stated,109,23.2,8,0,23,2,NA,NA,NA,1,NA,1,NA
+Gokeler 2017a,1,Male,mixed,38,24,3.6,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Gokeler 2017a,2,Female,HS,14,21.7,3.5,14,NA,NA,NA,NA,NA,1,NA,1,NA
+Gokeler 2017a,3,Healthy Control - Male,"NA",87,19.2,NA,0,NA,NA,NA,Range 17-24,NA,1,NA,1,NA
+Gokeler 2017a,4,Healthy Control - Female,"NA",85,19.3,NA,85,NA,NA,NA,Range 17-22,NA,1,NA,1,NA
+Haillotte 2017,1,Group 1,fascia lata,53,26.7,9.7,13,NA,NA,NA,NA,NA,NA,NA,0,NA
+Hamrin Senorski 2017,1,Women Returned,not stated,23,20.8,3,23,NA,NA,7.9,NA,NA,1,NA,1,NA
+Hamrin Senorski 2017,2,Women not returned,not stated,54,21.4,3.8,54,NA,NA,8.2,NA,NA,1,NA,1,NA
+Hamrin Senorski 2017,3,Men returned,not stated,29,23.7,4.5,0,NA,NA,8.1,NA,NA,1,NA,1,NA
+Hamrin Senorski 2017,4,Men not returned,not stated,51,23.3,4.2,0,NA,NA,8.8,NA,NA,1,NA,1,NA
+KyoungHo 2017,1,Group 1,mixed,73,30.67,9.81,0,25.05,3.15,NA,NA,NA,NA,NA,0,NA
+McGrath 2017,1,ACLR,mixed,64,27.9,NA,20,24.9,NA,NA,NA,NA,1,NA,0,NA
+McGrath 2017,2,Healthy Control,"NA",32,26.3,NA,16,25.7,NA,NA,NA,NA,1,NA,0,NA
+Meierbachtol 2017,1,Group 1,not stated,71,20.2,NA,44,24.4,NA,NA,NA,NA,NA,NA,0,NA
+Menzer 2017,1,Group 1,mixed,88,19.4,3.7,39,NA,NA,NA,NA,NA,NA,NA,0,NA
+Myklebust 2017,1,ACL group,not stated,80,23.25,4.13,80,23.42,0.53,NA,NA,NA,1,NA,0,NA
+Myklebust 2017,2,Healthy Control,"NA",778,20.68,3.84,778,23.03,0.32,NA,NA,NA,1,NA,0,NA
+Nawasreh 2017,1,Pass,mixed,48,26.33,9.39,11,24.71,3.17,NA,NA,NA,1,NA,1,NA
+Nawasreh 2017,2,Fail,mixed,47,28.02,11.81,21,25.32,4.62,NA,NA,NA,1,NA,1,NA
+Perraton 2017,1,ACLR,HS,66,28.4,6.2,23,25.3,3.3,NA,NA,Age at testing,1,NA,0,NA
+Perraton 2017,2,Healthy Control,"NA",41,25.8,5.3,16,24,2.6,NA,NA,NA,1,NA,0,NA
+Pua 2017,1,Group 1,mixed,106,26,8,23,24.2,3.4,7,NA,NA,NA,NA,0,NA
+Ueda 2017,1,Group 1,HS,193,21,6.8,87,NA,NA,8,NA,NA,NA,NA,0,NA
+Webster 2017,1,Male,HS,1662,28.1,10,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Webster 2017,2,Female,HS,908,28.1,10,908,NA,NA,NA,NA,NA,1,NA,0,NA
+Yoo 2017,1,Autograft,HS,68,30,NA,7,NA,NA,NA,NA,NA,1,NA,1,NA
+Yoo 2017,2,Allograft,TA Allograft,64,24,NA,5,NA,NA,NA,NA,NA,1,NA,1,NA
+Zult 2017,1,ACL,ACLD,32,23,4,16,24,3,NA,NA,NA,1,NA,1,NA
+Zult 2017,2,Healthy Control - Active,"NA",20,22,2,10,23,2,NA,NA,NA,1,NA,1,NA
+Zult 2017,3,Healthy Control - Less active,"NA",20,22,1,10,23,5,NA,NA,NA,1,NA,1,NA
+Akelman 2016,1,Low tension,mixed,46,24,2.7,22,NA,NA,NA,NA,NA,1,NA,1,NA
+Akelman 2016,2,High tension,mixed,44,23,2.1,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Akelman 2016,3,Healthy Control,"NA",60,25,1.6,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Bartels 2016,1,Speedcourt,HS,28,31.4,7.48,6,24.7,2.5,NA,NA,NA,1,NA,1,NA
+Bartels 2016,2,Regular,HS,22,34.4,12.5,8,23.8,2.82,NA,NA,NA,1,NA,1,NA
+Bell 2016,1,Low quadriceps,mixed,18,18.7,1.6,17,NA,NA,NA,NA,NA,1,NA,1,NA
+Bell 2016,2,High quadriceps,mixed,37,19.1,1.7,31,NA,NA,NA,NA,NA,1,NA,1,NA
+Bell 2016,3,Healthy Control,"NA",73,19.8,1.5,60,NA,NA,NA,NA,NA,1,NA,1,NA
+Culvenor 2016b,1,ACLR,HS,97,NA,NA,31,25.8,3.9,NA,Median 28 (IQR 23-35),NA,1,NA,0,NA
+Culvenor 2016b,2,Healthy Control,"NA",48,NA,NA,28,22.5,2.3,NA,Median 30 (IQR 25-34),NA,1,NA,0,NA
+Eiji 2016,1,Group I,HS,44,27,NA,14,NA,NA,NA,Range 14-57,NA,1,NA,1,NA
+Eiji 2016,2,Group II,HS,53,26,NA,22,NA,NA,NA,Range 15-50,NA,1,NA,1,NA
+Goetschius 2016,1,ACLR,not stated,53,23.4,4.9,26,NA,NA,NA,NA,NA,1,NA,0,NA
+Goetschius 2016,2,Healthy Control,"NA",50,23.3,4.4,22,NA,NA,NA,NA,NA,1,NA,0,NA
+Grindem 2016,1,Group 1,ACLD,100,24.3,7.3,54,NA,NA,NA,NA,NA,NA,NA,0,NA
+Jeong-Ku 2016,1,Single,HS,48,25.1,NA,8,NA,NA,NA,NA,NA,1,NA,1,NA
+Jeong-Ku 2016,2,Double,HS,48,24.8,NA,8,NA,NA,NA,NA,NA,1,NA,1,NA
+Karikis 2016,1,SB,HS,50,28,8.5,15,25.5,3.6,7.8,NA,NA,1,NA,1,NA
+Karikis 2016,2,DB,HS,53,30,9.2,18,24.9,2.5,7.3,NA,NA,1,NA,1,NA
+Kilinc 2016,1,Transtibial,HS,27,27.96,6.47,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Kilinc 2016,2,Anatomic,HS,28,28.39,6.06,27,NA,NA,NA,NA,NA,1,NA,1,NA
+Konrads 2016,1,BPTB,BPTB,31,29.8,NA,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Konrads 2016,2,ST,HS - ST,31,29.8,NA,8,NA,NA,NA,NA,NA,1,NA,1,NA
+Kyritsis 2016,1,No graft rupture,mixed,132,21,4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kyritsis 2016,2,Graft rupture,mixed,26,22,5,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Labanca 2016,1,Group 1,BPTB,58,22,6,5,NA,NA,NA,NA,NA,NA,NA,0,NA
+Lee 2016,1,HS,HS - DB,48,29.9,NA,4,24.8,3.2,NA,Range 17-58,NA,1,NA,1,NA
+Lee 2016,2,Quadriceps,QT,48,31.1,NA,4,25.1,2.7,NA,Range 17-57,NA,1,NA,1,NA
+Lepley 2016,1,Group 1,BPTB,54,19.9,5.1,31,NA,NA,NA,NA,NA,NA,NA,0,NA
+Risberg 2016,1,Combined,mixed,168,NA,NA,73,26.7,4,NA,45.2 (9.1) (current),NA,NA,NA,0,NA
+Sasaki 2016,1,DB-HT,HS,67,28.2,12.6,35,23.2,3.2,NA,NA,NA,1,NA,1,NA
+Sasaki 2016,2,RTSB-PT,BPTB,69,27,11.9,36,23.1,3.1,NA,NA,NA,1,NA,1,NA
+Chen 2015,1,Acute,LARS,27,29.4,5.8,12,NA,NA,NA,NA,NA,1,NA,1,NA
+Chen 2015,2,Chronic,LARS,28,31.9,7,17,NA,NA,NA,NA,NA,1,NA,1,NA
+Chung 2015a,1,ACL,HS,75,27.9,8.6,11,24.7,2.7,6.3,NA,NA,1,NA,0,NA
+Chung 2015a,2,Healthy Control,"NA",75,27.6,7,11,23.9,3.3,6.4,NA,NA,1,NA,0,NA
+Lima 2015,1,ACL,not stated,27,25.6,5.8,0,25.6,4.4,NA,NA,NA,1,NA,0,NA
+Lima 2015,2,Healthy Control,"NA",27,23.7,4.3,0,25.6,3.4,NA,NA,NA,1,NA,0,NA
+Goetschius 2015,1,ACLR,not stated,32,24.1,4.9,14,NA,NA,NA,NA,NA,1,NA,0,NA
+Goetschius 2015,2,Healthy Control,"NA",32,24.3,4,15,NA,NA,NA,NA,NA,1,NA,0,NA
+Heijne 2015,1,BPTB,BPTB,34,29,7,12,24.3,2.4,NA,NA,NA,1,NA,1,NA
+Heijne 2015,2,HS,HS,34,30,9,20,24.2,2.9,NA,NA,NA,1,NA,1,NA
+Hsieh 2015,1,ACLR,mixed,28,19.6,4.5,14,NA,NA,NA,NA,NA,1,NA,0,NA
+Hsieh 2015,2,Healthy Control,"NA",28,20,4.3,14,NA,NA,NA,NA,NA,1,NA,0,NA
+Kanamoto 2015,1,Group 1,HS,57,24.7,NA,35,NA,NA,7,Range 13-51,NA,NA,NA,0,NA
+Karimi-Mobarakeh 2015,1,ST/G,HS - ST/G,61,29.7,7.9,11,24.9,4,NA,NA,NA,1,NA,0,NA
+Karimi-Mobarakeh 2015,2,ST,HS - ST,58,28.8,8.2,10,23.4,3.3,NA,NA,NA,1,NA,0,NA
+Kim 2015a,1,PEG,not stated,40,NA,NA,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kim 2015a,2,NPEG,not stated,40,NA,NA,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kim 2015b,1,Female,not stated,35,28.2,11.3,35,NA,NA,NA,NA,NA,1,NA,1,NA
+Kim 2015b,2,Male,not stated,35,29.7,10.7,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Koga 2015a,1,SB,HS,25,24,NA,18,NA,NA,6.8,Range 14-44,NA,1,NA,1,NA
+Koga 2015a,2,DB,HS,28,25,NA,12,NA,NA,7,Range 14-49,NA,1,NA,1,NA
+Koga 2015b,1,P0,HS,25,24.6,NA,7,NA,NA,7,Range 14-52,NA,1,NA,1,NA
+Koga 2015b,2,P20,HS,26,26.2,NA,12,NA,NA,7.1,Range 13-63,NA,1,NA,1,NA
+Koga 2015b,3,P45,HS,24,22.4,NA,10,NA,NA,6.9,Range 14-42,NA,1,NA,1,NA
+Krolikowska 2015,1,ST,HS,20,26.65,9.71,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Krolikowska 2015,2,STGR,HS,20,29.55,8.23,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Krolikowska 2015,3,Healthy Control,"NA",20,24.9,3.11,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kyung 2015,1,ST,HS - ST,85,28,10.6,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kyung 2015,2,ST/G,HS - ST/G,59,31.3,12.3,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Laudner 2015,1,ACLR,BPTB,26,18.7,3.5,11,NA,NA,NA,NA,NA,1,NA,0,NA
+Laudner 2015,2,Healthy Control,"NA",26,21.8,3.6,11,NA,NA,NA,NA,NA,1,NA,0,NA
+Lentz 2015,1,YRTS,mixed,46,21,8.7,18,NA,NA,8.6,NA,NA,1,NA,1,NA
+Lentz 2015,2,NRTS-Other,mixed,13,25.1,9,6,NA,NA,8.2,NA,NA,1,NA,1,NA
+Lentz 2015,3,NRTS-Fear/Confidence,mixed,14,28.8,11.6,4,NA,NA,NA,NA,NA,1,NA,1,NA
+Mayer 2015,1,Cleared,mixed,37,25.6,13.2,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Mayer 2015,2,Not cleared,mixed,61,21,7.4,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Mohtadi 2015,1,PT,PT,110,28.7,9.7,47,NA,NA,NA,NA,NA,1,NA,1,NA
+Mohtadi 2015,2,HT,HS - QB,110,28.5,9.9,51,NA,NA,NA,NA,NA,1,NA,1,NA
+Mohtadi 2015,3,DB,HS - DB,110,28.3,9.8,49,NA,NA,NA,NA,NA,1,NA,1,NA
+Mouzopoulos 2015,1,PT,PT,32,NA,NA,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Mouzopoulos 2015,2,HS,HS,36,NA,NA,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Mouzopoulos 2015,3,Healthy Control,"NA",68,25.7,3.4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Palmieri-Smith 2015,1,High Quadriceps,PT,12,19.3,6.3,4,NA,NA,NA,NA,NA,1,NA,1,NA
+Palmieri-Smith 2015,2,Moderate Quadriceps,PT,12,21.58,7.49,4,NA,NA,NA,NA,NA,1,NA,1,NA
+Palmieri-Smith 2015,3,Low Quadriceps,PT,42,21.09,5.5,42,NA,NA,NA,NA,NA,1,NA,1,NA
+Pietrosimone 2015,1,ACLR,mixed,28,21.28,3.79,19,NA,NA,NA,NA,NA,1,NA,0,NA
+Pietrosimone 2015,2,Healthy Control,"NA",29,21.55,2.7,20,NA,NA,NA,NA,NA,1,NA,0,NA
+Park 2015,1,Isolated ACL Tear,not stated,23,29.3,10.7,7,25.6,4.7,NA,NA,NA,1,NA,1,NA
+Park 2015,2,Combined ACL Tear,not stated,27,32.1,10.9,7,24.4,3.6,NA,NA,NA,1,NA,1,NA
+Pua 2015,1,Group 1,ACLD,87,26,5.8,14,23.8,3.3,NA,NA,NA,NA,NA,0,NA
+Shelbourne 2015,1,Contralateral BPTB,BPTB Contralateral,279,23.2,8.9,142,NA,NA,NA,NA,NA,1,NA,1,NA
+Shelbourne 2015,2,Ispilateral BPTB,BPTB,58,24.8,9.5,38,NA,NA,NA,NA,NA,1,NA,1,NA
+Wang 2015a,1,More than 20% deficit,HS,42,28.7,NA,16,NA,NA,NA,Range 16-42,NA,NA,NA,1,NA
+Wang 2015a,2,Less than 20% deficit,HS,46,26.1,NA,11,NA,NA,NA,Range 17-42,NA,NA,NA,1,NA
+Button 2014,1,Healthy Control,"NA",21,26.8,7.7,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Button 2014,2,ACLR,HS,21,29.1,9,5,NA,NA,NA,NA,NA,1,NA,1,NA
+Button 2014,3,ACLD,ACLD,20,29.2,6,3,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2014,1,Patellar,BPTB,30,NA,NA,0,NA,NA,7.7,NA,NA,1,NA,1,NA
+Dauty 2014,2,HS,HS,30,NA,NA,0,NA,NA,7.7,NA,NA,1,NA,1,NA
+Gifstad 2014,1,EZLoc,HS,55,NA,NA,19,NA,NA,NA,MD 24 (Range 18-45),NA,1,NA,1,NA
+Gifstad 2014,2,Bone Mulch,HS,55,NA,NA,20,NA,NA,NA,MD 27 (Range 18-45),NA,1,NA,1,NA
+Grindem 2014,1,Non-surgical,ACLD,43,30.2,8.8,19,23.5,2.6,NA,NA,NA,1,NA,1,Only 3rd timepoint for combination
+Grindem 2014,2,Surgical,mixed,100,24,7.2,44,23.9,3.3,NA,NA,NA,1,NA,1,Only 3rd timepoint for combination
+Jang 2014,1,RTS,HS,51,21.9,4,0,24.4,2.7,6.7,NA,NA,1,NA,1,NA
+Jang 2014,2,No RTS,HS,16,21.8,3.5,0,24.7,2.6,6.9,NA,NA,1,NA,1,NA
+Koga 2014,1,Control,HS,73,23.2,NA,41,NA,NA,7,Range 14-48,NA,1,NA,1,NA
+Koga 2014,2,Notchplasty,HS,64,25.7,NA,40,NA,NA,6.9,Range 14-56,NA,1,NA,1,NA
+Leiter 2014,1,Group 1,HS,68,31.2,9.1,25,28.5,4.7,NA,NA,NA,NA,NA,0,NA
+Lepley 2014,1,ACLR,mixed,29,21.2,3.7,20,NA,NA,NA,NA,NA,1,NA,0,NA
+Lepley 2014,2,Healthy Control,"NA",29,21.5,2.7,20,NA,NA,NA,NA,NA,1,NA,0,NA
+Logerstedt 2014,1,below normal IKDC 6m,mixed,76,NA,NA,47,NA,NA,NA,NA,NA,0,"6m groups are indep, and 12m groups are indep. Combine group 1/2 and 3/4 separately , then can use as longitudinal",0,Combine Group 1/2 and 3/4 separately 
+Logerstedt 2014,2,Normal IKDC 6m,mixed,82,NA,NA,19,NA,NA,NA,NA,NA,0,"6m groups are indep, and 12m groups are indep. Combine group 1/2 and 3/4 separately , then can use as longitudinal",0,Combine Group 1/2 and 3/4 separately 
+Logerstedt 2014,3,below normal IKDC 12m,mixed,31,NA,NA,13,NA,NA,NA,NA,NA,0,"6m groups are indep, and 12m groups are indep. Combine group 1/2 and 3/4 separately , then can use as longitudinal",0,Combine Group 1/2 and 3/4 separately 
+Logerstedt 2014,4,normal IKDC 12m,mixed,110,NA,NA,49,NA,NA,NA,NA,NA,0,"6m groups are indep, and 12m groups are indep. Combine group 1/2 and 3/4 separately , then can use as longitudinal",0,Combine Group 1/2 and 3/4 separately 
+Telianidis 2014,1,ACLR,HS,28,27,5,9,25,3,NA,NA,NA,1,NA,0,NA
+Telianidis 2014,2,Healthy Control,"NA",29,23.8,4.1,14,23.5,2.6,NA,NA,NA,1,NA,0,NA
+Tourville 2014,1,Healthy Control,"NA",32,27,7,18,23.8,3.3,6.2,NA,NA,1,NA,0,NA
+Tourville 2014,2,ACLR,mixed,38,28,11.84,20,25,3.76,7.6,NA,NA,1,NA,0,NA
+Vermesan 2014,1,Medial,HS,23,26.64,5.63,7,25.64,4.23,NA,NA,NA,1,NA,1,NA
+Vermesan 2014,2,Lateral,HS,48,29.88,5.94,6,24.38,4.5,NA,NA,NA,1,NA,1,NA
+Ahlden 2013,1,SB,HS,50,NA,NA,15,NA,NA,7.8,Median 25 Range 18-52,NA,1,NA,1,NA
+Ahlden 2013,2,DB,HS,53,NA,NA,18,NA,NA,7.3,Median 29 IQR 18-52,NA,1,NA,1,NA
+Ericsson 2013,1,Exercise alone,ACLD,42,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Ericsson 2013,2,Exercise + ACLR,mixed,45,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Fleming 2013,1,Low tension,mixed,46,24,2.7,22,NA,NA,NA,NA,NA,1,NA,1,NA
+Fleming 2013,2,High tension,mixed,44,23,2.1,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Fleming 2013,3,Healthy Control,"NA",60,25,1.6,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Gifstad 2013,1,Primary ACLR,mixed,52,36,NA,29,NA,NA,NA,range 20-57,NA,NA,NA,0,NA
+Inagaki 2013,1,Group I,HS,61,28.2,11.9,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Inagaki 2013,2,Group II,HS,59,26.2,10.3,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Koutras 2013,1,Anteromedial,HS,15,21.5,4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Koutras 2013,2,Transtibial,HS,36,24.9,6,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kuenze 2013,1,Healthy Control,"NA",26,24.3,4.3,13,23.8,2.6,NA,NA,NA,1,NA,0,NA
+Kuenze 2013,2,ACLR,mixed,26,24.2,4.9,13,24.2,2.4,NA,NA,NA,1,NA,0,NA
+Logerstedt 2013,1,Group 1,mixed,83,26.8,11.2,28,25.7,4.8,NA,NA,NA,NA,NA,0,NA
+Nakayama 2013,1,Tourniquet group,HS,28,24.8,NA,17,NA,NA,NA,Range 14-45,NA,1,NA,1,NA
+Nakayama 2013,2,No tourniquet group,HS,23,26.7,NA,7,NA,NA,NA,Range 15-45,NA,1,NA,1,NA
+Noh 2013a,1,Transtibial,Achilles allograft,30,NA,NA,0,23,2.4,NA,MD 24 (Range 18-45),NA,1,NA,1,NA
+Noh 2013a,2,Transportal,Achilles allograft,31,NA,NA,0,23.1,1.9,NA,MD 22 Range (19-44),NA,1,NA,1,NA
+Noh 2013b,1,Achilles allograft with calc,Achilles allograft,33,NA,NA,0,23.8,2.6,NA,MD 23 range (19-45),NA,1,NA,1,NA
+Noh 2013b,2,Achilles allograft free,Achilles allograft,34,NA,NA,0,23.6,2.2,NA,MD 22 (19-44),NA,1,NA,1,NA
+Oiestad 2013,1,Combined,BPTB,181,NA,NA,76,26.41,3.69,NA,39.1 (8.7),NA,NA,NA,0,NA
+Tugcu 2013,1,Group 1,BPTB,58,26.63,NA,0,NA,NA,NA,Range 19-34,NA,NA,NA,0,NA
+Ventura 2013,1,SB,HS,40,28.8,5.8,15,NA,NA,NA,NA,NA,1,NA,1,NA
+Ventura 2013,2,DB,HS,40,28.4,8.6,14,NA,NA,NA,NA,NA,1,NA,1,NA
+Iriuchishima 2012,1,SB,HS - Single bundle,79,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Iriuchishima 2012,2,DB,HS - Double Bundle,56,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Jiang 2012,1,Double Bundle Group,BPTB,25,28.5,NA,4,NA,NA,NA,Range 17-42,NA,1,NA,1,NA
+Jiang 2012,2,Single Bundle Group,BPTB,27,22.5,NA,9,NA,NA,NA,Range 16-49,NA,1,NA,1,NA
+Kawahara 2012,1,ACLD - No genu recurvatum,ACLD,18,25.5,9.2,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Kawahara 2012,2,ACLD - Genu recurvatum,ACLD,18,24.6,11,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Kawahara 2012,3,Healthy Control - no genu recurvatum,"NA",20,26.4,8.4,10,NA,NA,NA,NA,NA,1,NA,1,NA
+Kawahara 2012,4,Healthy Control - genu recurvatum,"NA",20,25,6.1,10,NA,NA,NA,NA,NA,1,NA,1,NA
+Grindem 2012,1,Non-operative,ACLD,69,27.9,7.3,32,NA,NA,NA,NA,NA,1,NA,1,NA
+Grindem 2012,2,Operative,mixed,69,27.3,6.9,32,NA,NA,NA,NA,NA,1,NA,1,NA
+Logerstedt 2012,1,Below Normal Ranges,mixed,17,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Logerstedt 2012,2,Within Normal ranges,mixed,68,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Lui 2012,1,Combined,mixed,52,25.14,4.6,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Lynch 2012,1,Small Effusion,ACLD,126,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,0,NA
+Lynch 2012,2,Large Effusion,ACLD,62,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,0,NA
+Nakase 2012,1,Future contralateral ACLR,HS - ST/G,24,NA,NA,19,NA,NA,NA,NA,NA,1,NA,1,NA
+Nakase 2012,2,No future ACLR,HS - ST/G,200,NA,NA,155,NA,NA,NA,NA,NA,1,NA,1,NA
+Niki 2012,1,Anterior Knee Pain,mixed,18,28.4,NA,9,NA,NA,5,NA,NA,1,NA,1,NA
+Niki 2012,2,No Anterior Knee Pain,mixed,144,29,NA,67,NA,NA,6,NA,NA,1,NA,1,NA
+Noh 2012,1,Group 1,Achilles allograft,36,NA,NA,0,23.8,2.6,NA,MD 23 range (19-45),NA,1,NA,1,NA
+Noh 2012,2,Group 2,Achilles allograft,35,NA,NA,0,23.6,2.2,NA,MD 22 Range (19-45),NA,1,NA,1,NA
+Thomee 2012,1,Group 1,mixed,82,28.24,8.14,26,NA,NA,8,NA,NA,NA,NA,0,NA
+Ardern 2011,1,Group 1,HS,503,27.2,8.4,163,NA,NA,NA,NA,NA,NA,NA,0,NA
+Bryant 2011,1,ACLD,ACLD,13,32.7,8.6,3,NA,NA,NA,NA,NA,1,NA,1,NA
+Bryant 2011,2,ACLR-PT,PT,25,30.5,8.1,11,NA,NA,NA,NA,NA,1,NA,1,NA
+Bryant 2011,3,ACLR STGT,HS - ST/G,14,24.5,7.4,2,NA,NA,NA,NA,NA,1,NA,1,NA
+Bryant 2011,4,Healthy Control,"NA",33,29.5,8.8,11,NA,NA,NA,NA,NA,1,NA,1,NA
+Czamara 2011b,1,Females,HS - ST/G,63,27.03,7.96,25,NA,NA,NA,NA,NA,NA,NA,0,NA
+Fujita 2011,1,DB,HS,18,26.2,NA,7,NA,NA,NA,NA,NA,1,NA,1,NA
+Fujita 2011,2,AM,HS,18,26.9,NA,12,NA,NA,NA,NA,NA,1,NA,1,NA
+Fujita 2011,3,PL,HS,19,22.5,NA,14,NA,NA,NA,NA,NA,1,NA,1,NA
+Grindem 2011,1,IKDC below normal,ACLD,21,NA,NA,5,NA,NA,NA,MD 28 IQR 23-31,NA,1,NA,1,NA
+Grindem 2011,2,IKDC within normal range,ACLD,60,NA,NA,35,NA,NA,NA,MD 29 IQR 24-35,NA,1,NA,1,NA
+Kim 2011,1,Hamstring autograft,HS,39,29.59,8.74,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Kim 2011,2,Allograft,HS Allograft,34,27,8.2,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Leal-Blanquet 2011,1,BPTBAu,BPTB,15,28.8,7.1,NA,25.1,2.8,NA,NA,NA,1,NA,1,NA
+Leal-Blanquet 2011,2,BPTB Allograft,BPTB Allograft,16,25.4,7.3,NA,24.1,3.6,NA,NA,NA,1,NA,1,NA
+Leal-Blanquet 2011,3,HT Autograft,HS,20,26.9,10,NA,24.8,2.3,NA,NA,NA,1,NA,1,NA
+Niki 2011,1,BPTB-G,BPTB-Gracilis,55,28.4,NA,18,NA,NA,6,Range 14-46,NA,1,NA,1,NA
+Niki 2011,2,ST,HS - ST,56,28.7,NA,34,NA,NA,6.2,Range 14-49,NA,1,NA,1,NA
+Niki 2011,3,ST-G,HS - ST/G,33,30.5,NA,28,NA,NA,5.2,Range 14-52,NA,1,NA,1,NA
+Reinke 2011,1,Female left,not stated,16,NA,NA,16,NA,NA,NA,MD 20 IQR 18-20,MD 23 IQR 22-27,1,NA,1,NA
+Reinke 2011,2,Male left,not stated,15,NA,NA,0,NA,NA,NA,MD 21 IQR 21-26,MD 25 IQR 23-26,1,NA,1,NA
+Reinke 2011,3,Female right,not stated,25,NA,NA,25,NA,NA,NA,MD 20 IQR 19-25,MD 22 IQR 21-24,1,NA,1,NA
+Reinke 2011,4,Male right,not stated,13,NA,NA,0,NA,NA,NA,MD 21 IQR 20-26,MD 28 IQR 26-30,1,NA,1,NA
+Wipfler 2011,1,BPT,BPTB,29,NA,NA,11,NA,NA,NA,NA,NA,1,NA,1,NA
+Wipfler 2011,2,HT,HS,25,NA,NA,10,NA,NA,NA,NA,NA,1,NA,1,NA
+Ardern 2010,1,ST-G,HS - ST/G,30,26.1,6.9,10,NA,NA,NA,NA,NA,1,NA,1,NA
+Ardern 2010,2,ST,HS - ST,20,24.4,4.9,5,NA,NA,NA,NA,NA,1,NA,1,NA
+Barenius 2010,1,BPTB,BPTB,78,33,6.3,40,NA,NA,NA,NA,NA,1,NA,1,NA
+Barenius 2010,2,ST,HS - ST,75,35,7.5,24,NA,NA,NA,NA,NA,1,NA,1,NA
+Czamara 2010a,1,Females,HS - ST/G,45,29.6,10.4,45,NA,NA,NA,NA,NA,1,NA,1,NA
+Czamara 2010a,2,Males,HS - ST/G,59,28.3,8.2,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2010,1,PT retrained,PT,21,22.7,1.3,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2010,2,STG retrained,HS - ST/G,19,23.8,1.2,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2010,3,PT control,PT,20,25.2,1.7,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2010,4,STG Control,HS - ST/G,20,23.5,2,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Eitzen 2010b,1,Future Non-op,ACLD,71,27.9,8.9,40,NA,NA,NA,NA,NA,1,NA,1,NA
+Eitzen 2010b,2,Future recon,ACLD,74,24.4,7,37,NA,NA,NA,NA,NA,1,NA,1,NA
+Eitzen 2010c,1,Group 1,ACLD,100,26.1,NA,56,23.44,NA,NA,Range 14-47,NA,NA,NA,0,NA
+Gao 2010,1,Group 1,LARS,159,30,7,54,NA,NA,NA,NA,NA,NA,NA,0,NA
+Ghalayani 2010,1,LK,Synthetic Leeds Keio,24,31.7,NA,3,NA,NA,NA,Range 29-34.5,NA,1,NA,1,NA
+Ghalayani 2010,2,PT,PT,26,30.9,NA,7,NA,NA,NA,Range 28.1-33.6,NA,1,NA,1,NA
+Grant 2010,1,Home,BPTB,40,30.8,10.1,27,NA,NA,NA,NA,NA,1,NA,1,NA
+Grant 2010,2,Physical Therapy,BPTB,48,30.3,11.1,23,NA,NA,NA,NA,NA,1,NA,1,NA
+Balki 2019,1,KT,mixed,13,27.7,4.1,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Balki 2019,2,Sham KT,mixed,13,27.1,7.5,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Hoch 2019,1,Group 1,not stated,18,24.6,4.6,12,NA,NA,NA,NA,NA,NA,NA,0,NA
+Bando 2017,1,Healthy Control,"NA",22,23,3.2,22,NA,NA,NA,NA,NA,1,NA,0,NA
+Bando 2017,2,ACL,not stated,9,29.7,13.9,9,NA,NA,NA,NA,NA,1,NA,0,NA
+Tate 2017,1,ACL,mixed,12,20.8,2.1,7,NA,NA,NA,NA,NA,1,NA,0,NA
+Tate 2017,2,Healthy Control,"NA",12,23.9,1.4,7,NA,NA,NA,NA,NA,1,NA,0,NA
+Hall 2015,1,Poor SLST performance,mixed,15,33.6,NA,6,26.6,NA,NA,Range 15-42,range 21.4-40.7,1,NA,1,NA
+Hall 2015,2,Good SLST performance,mixed,18,24.2,NA,8,24.2,NA,NA,Range 17-48,Range 19.5-34.4,1,NA,1,NA
+Noehren 2014,1,ACL group,mixed,20,21.1,5.9,20,NA,NA,6.5,NA,NA,1,NA,0,NA
+Noehren 2014,2,Healthy Control,"NA",20,22.8,3.1,20,NA,NA,6.8,NA,NA,1,NA,0,NA
+Thomas 2013,1,ACL,BPTB,15,20.27,5.38,7,NA,NA,NA,NA,NA,1,NA,0,NA
+Thomas 2013,2,Healthy Control,"NA",15,24.73,3.37,8,NA,NA,NA,NA,NA,1,NA,0,NA
+Dalton 2011,1,ACLR,mixed,17,24.47,4.12,11,NA,NA,NA,NA,NA,1,NA,0,NA
+Dalton 2011,2,Healthy Control,"NA",17,23.17,2.68,11,NA,NA,NA,NA,NA,1,NA,0,NA
+Hadi 2019,1,Group A,HS - ST/G,20,26.7,NA,0,NA,NA,NA,Range 18-45,NA,1,NA,1,NA
+Hadi 2019,2,Group B,Tib Post Allograft,14,26.7,NA,5,NA,NA,NA,Range 18-45,NA,1,NA,1,NA
+Hadi 2019,3,Group C,BPTB,12,26.5,NA,0,NA,NA,NA,Range 18-34,NA,1,NA,1,NA
+Hadi 2019,4,Group D,HS - ST,12,26.9,NA,0,NA,NA,NA,Range 18-45,NA,1,NA,1,NA
+Geoghegan 2007,1,BPTB,BPTB,12,29.6,NA,0,NA,NA,NA,Range 21-39,NA,1,NA,1,NA
+Geoghegan 2007,2,HS,HS,10,37.5,NA,4,NA,NA,NA,Range 23-54,NA,1,NA,1,NA
+Urabe 2002,1,Group 1,HS - ST,44,32.7,NA,20,NA,NA,NA,Range 16-47,NA,NA,NA,0,NA
+Nicholas 2001,1,Tourniquet,PT,25,33,7,12,NA,NA,NA,NA,NA,1,NA,1,NA
+Nicholas 2001,2,No tourniquet,PT,23,32,9,7,NA,NA,NA,NA,NA,1,NA,1,NA
+Tyler 2004,1,Creatine,BPTB,25,36,1.2,9,NA,NA,NA,NA,NA,1,NA,1,NA
+Tyler 2004,2,Placebo,BPTB,35,37,1.5,18,NA,NA,NA,NA,NA,1,NA,1,NA
+Karanikas 2004,1,3-6 months post op,mixed,28,29,9,NA,NA,NA,5,NA,NA,1,NA,2,NA
+Karanikas 2004,2,6-12 month post op,mixed,20,31,1,NA,NA,NA,5,NA,NA,1,NA,2,NA
+Karanikas 2004,3,12-24 month,mixed,21,31,9,NA,NA,NA,7,NA,NA,1,NA,2,NA
+Karanikas 2005,1,Conservative,ACLD,12,33,12,NA,NA,NA,6,NA,NA,1,NA,1,NA
+Karanikas 2005,2,Surgical,mixed,21,31,9,NA,NA,NA,7,NA,NA,1,NA,1,NA
+Girdwood 2023,1,ACLR,HS,111,27,NA,43,25.6,NA,6,IQR 22-36,IQR 23.2 to 27.8,NA,NA,0,NA
+Heijne 2010,1,BPTB,BPTB,34,29,7,12,24.3,2.4,NA,NA,NA,1,NA,1,NA
+Heijne 2010,2,HS,HS,34,30,9,20,24.2,2.9,NA,NA,NA,1,NA,1,NA
+Holm 2010,1,HAM,HS,29,27,9,14,25.2,2.8,NA,NA,NA,1,NA,1,NA
+Holm 2010,2,PT,BPTB,28,25,7,10,26.5,3.5,NA,NA,NA,1,NA,1,NA
+Konishi 2010,1,Patient at 12 months,HS - ST,52,21.1,5.3,25,NA,NA,NA,NA,NA,1,NA,0,NA
+Konishi 2010,2,Healthy Control,"NA",35,20.9,1.1,10,NA,NA,NA,NA,NA,1,NA,0,NA
+Landes 2010,1,Group 1,HS ST/G,20,NA,NA,7,NA,NA,NA,MD 27 (Range 18-45),NA,1,NA,1,NA
+Landes 2010,2,Group 2,TA,20,NA,NA,12,NA,NA,NA,MD 30 (Range 18-51),NA,1,NA,1,NA
+Landes 2010,3,Healthy Control,"NA",20,NA,NA,7,NA,NA,NA,MD 25 (Range 18-45),NA,1,NA,1,NA
+Siney 2010,1,All,mixed,80,29.56,7.48,25,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (split by graft),1,NA
+Siney 2010,2,DIDT,HS - ST,47,NA,NA,NA,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (split by graft),1,NA
+Siney 2010,3,KJ,BPTB,33,NA,NA,NA,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (split by graft),1,NA
+Stener 2010,1,PLLA,HS - ST,33,NA,NA,8,NA,NA,NA,MD 26 range 16-38,NA,1,NA,1,NA
+Stener 2010,2,Metal,HS - ST,31,NA,NA,9,NA,NA,NA,MD 27 Range 16-46,NA,1,NA,1,NA
+Sutherland 2010,1,Group 1,BPTB,79,41,NA,16,NA,NA,NA,Range 22-77,NA,NA,NA,0,NA
+Tengman 2014a,1,ACLR,mixed,33,45.6,4.5,12,27.2,3.3,4,NA,NA,1,NA,1,NA
+Tengman 2014a,2,ACLPT,ACLD,37,48.1,5.9,14,28.9,4.6,4,NA,NA,1,NA,1,NA
+Tengman 2014a,3,Healthy Control,"NA",33,46.7,5,12,24.6,2.5,6,NA,NA,1,NA,1,NA
+Tengman 2014b,1,ACLR,mixed,33,45.6,4.5,12,27.2,3.3,4,NA,NA,1,NA,1,NA
+Tengman 2014b,2,ACLPT,ACLD,37,48.1,5.9,14,28.9,4.6,4,NA,NA,1,NA,1,NA
+Tengman 2014b,3,Healthy Control,"NA",33,46.7,5,12,24.6,2.5,6,NA,NA,1,NA,1,NA
+Hartigan 2009,1,Pertubation,mixed,9,28,10.7,3,NA,NA,NA,NA,NA,1,NA,1,NA
+Hartigan 2009,2,Strengthening,mixed,10,30,9.4,3,NA,NA,NA,NA,NA,1,NA,1,NA
+Ejerhed 2003,1,BPTB,BPTB,32,NA,NA,11,NA,NA,NA,MD 26 (Range 14-49),NA,1,NA,1,NA
+Ejerhed 2003,2,ST,HS - ST,34,NA,NA,9,NA,NA,NA,MD 29 (Range 15-59),NA,1,NA,1,NA
+Laxdal 2005,1,BPTB,BPTB,40,NA,NA,11,NA,NA,NA,MD 28 (Range 16-52),NA,1,NA,1,NA
+Laxdal 2005,2,ST,HS - ST,39,NA,NA,17,NA,NA,NA,MD 34 (Range 12-41),NA,1,NA,1,NA
+Laxdal 2005,3,ST/G,HS - ST/G,39,NA,NA,11,NA,NA,NA,MD 26 (Range 15-35),NA,1,NA,1,NA
+Eriksson 2001,1,BPTB,BPTB,84,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Eriksson 2001,2,ST,HS,80,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Grant 2005,1,Home,BPTB,73,29.1,9.2,26,NA,NA,NA,NA,NA,1,NA,1,NA
+Grant 2005,2,Physical Therapy,BPTB,72,29.5,10.2,34,NA,NA,NA,NA,NA,1,NA,1,NA
+Aune 2001,1,HAM,HS,37,27,9,16,NA,NA,NA,NA,NA,1,NA,1,NA
+Aune 2001,2,PT,BPTB,35,25,7,16,NA,NA,NA,NA,NA,1,NA,1,NA
+Risberg 1999a,1,Brace,BPTB,30,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Risberg 1999a,2,No Brace,BPTB,30,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Risberg 1999b,1,Group 1,BPTB,60,29.6,10.1,28,NA,NA,NA,NA,NA,NA,NA,0,NA
+Capin 2019,1,SAPP,mixed,20,18.9,5.8,20,25.3,3.3,NA,NA,NA,1,NA,1,NA
+Capin 2019,2,SAPP + PERT,mixed,19,19,8.8,19,24.7,3.9,NA,NA,NA,1,NA,1,NA
+Arundale 2017,1,SAPP,mixed,20,24,9,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Arundale 2017,2,SAPP + PERT,mixed,19,23,6,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Aizawa 2022,1,Group 1,mixed,54,20,4.3,33,21.9,3,NA,NA,NA,NA,NA,0,NA
+Alt 2022,1,Women,mixed,69,23.4,4.1,69,NA,NA,NA,NA,NA,1,NA,1,also need to combine controls
+Alt 2022,2,Healthy Control - Women,"NA",69,23.5,3.4,69,NA,NA,NA,NA,NA,1,NA,1,also need to combine controls
+Alt 2022,3,Men,mixed,63,23.7,4.5,0,NA,NA,NA,NA,NA,1,NA,1,also need to combine controls
+Alt 2022,4,Healthy Control - Men,"NA",63,23.3,3.8,0,NA,NA,NA,NA,NA,1,NA,1,also need to combine controls
+Arhos 2021,1,Combined,mixed,76,21.2,7.7,38,26.1,3.1,NA,NA,NA,NA,NA,0,NA
+Arumugam 2022,1,ACLR,mixed,34,24.5,4.6,25,23.8,2.5,NA,NA,NA,1,NA,1,Healthy controls to be combined
+Arumugam 2022,2,Healthy Control - Normal,"NA",24,23.4,3.4,20,22.3,2.1,NA,NA,NA,1,NA,1,Healthy controls to be combined
+Arumugam 2022,3,Healthy Control - Athlete,"NA",22,21.3,2.9,19,22.4,1.9,NA,NA,NA,1,NA,1,Healthy controls to be combined
+Balki 2021,1,ACLR,HS - ST/G,46,31.13,7.1,0,NA,NA,5.56,NA,NA,1,NA,0,NA
+Balki 2021,2,Healthy Control,"NA",50,31.42,7.11,0,NA,NA,6.9,NA,NA,1,NA,0,NA
+Beaudoin 2022,1,IPSI,HS - Ipsilateral,18,41.9,11.6,8,NA,NA,5,NA,NA,1,NA,1,NA
+Beaudoin 2022,2,CONTRA,HS - Contralateral,20,40.9,7.5,11,NA,NA,5,NA,NA,1,NA,1,NA
+Bodkin 2021,1,ACLR,not stated,120,21.3,8.4,63,NA,NA,5.8,NA,NA,1,NA,0,NA
+Bodkin 2021,2,Healthy Control,"NA",95,21.5,2.9,49,NA,NA,7.7,NA,NA,1,NA,0,NA
+Bregenhof 2023,1,SNG,HS,25,27.7,5.7,11,25.6,4.5,NA,NA,NA,1,NA,1,NA
+Bregenhof 2023,2,CON,HS,26,27,6.4,12,24.5,3.4,NA,NA,NA,1,NA,1,NA
+Byrne 2021,1,Isolated ACLR,BPTB,155,23.33,5,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Byrne 2021,2,ACLR + Meniscectomy,BPTB,128,22,5.4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Byrne 2021,3,ACLR + Meniscal repair,BPTB,30,23.75,5.6,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Casp 2021,1,Healthy Control,"NA",140,21.4,3.5,82,NA,NA,7.8,NA,NA,1,NA,1,NA
+Casp 2021,2,Isolated ACLR,mixed,50,22.9,10.1,31,NA,NA,5.7,NA,NA,1,NA,1,NA
+Casp 2021,3,ACLR-MS,mixed,23,25,12.5,23,NA,NA,6,NA,NA,1,NA,1,NA
+Casp 2021,4,ACLR-MR,mixed,71,20.3,7,33,NA,NA,6,NA,NA,1,NA,1,NA
+Chantrelle 2023,1,AKP Positive,HS,49,29.7,7.7,13,NA,NA,NA,NA,NA,1,NA,1,NA
+Chantrelle 2023,2,AKP negative,HS,281,25.8,6.8,82,NA,NA,NA,NA,NA,1,NA,1,NA
+Coquard 2022,1,Isolated ACLR,HS,111,37.57,10.05,50,24.32,3.57,NA,NA,NA,1,NA,1,NA
+Coquard 2022,2,ACLR-ALLR,HS,111,37.67,8.87,47,24.6,3.43,NA,NA,NA,1,NA,1,NA
+Costa 2022,1,Low tension,mixed,32,24.8,9.3,18,NA,NA,NA,NA,NA,1,NA,1,NA
+Costa 2022,2,High tension,mixed,28,22.3,6.9,16,NA,NA,NA,NA,NA,1,NA,1,NA
+Costa 2022,3,Healthy Control,"NA",35,26.2,7.1,15,NA,NA,NA,NA,NA,1,NA,1,NA
+Crotty 2022,1,Group 1,mixed,116,24.3,6.5,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Czamara 2021,1,ACLR-I,HS,20,25.8,5.48,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Czamara 2021,2,ACLR-II,HS,20,25.1,6.58,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Czamara 2021,3,Healthy Control,"NA",20,24.85,3.12,NA,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2022a,1,Returned to running,BPTB,103,24,6,29,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2022a,2,No return to running,BPTB,113,24.9,5.6,31,NA,NA,NA,NA,NA,1,NA,1,NA
+Dauty 2022b,1,Arthrofibrosis,mixed,59,25,7,20,NA,NA,4,NA,NA,1,NA,1,NA
+Dauty 2022b,2,No arthrofibrosis,mixed,480,25,6,135,NA,NA,4,NA,NA,1,NA,1,NA
+Fukuyama 2022,1,ACL,ACLD,20,24.7,6.9,12,23.3,4.1,NA,NA,NA,1,NA,0,NA
+Fukuyama 2022,2,Healthy Control,"NA",20,27.6,4,8,21.8,3.3,NA,NA,NA,1,NA,0,NA
+deSouzaBorges 2022,1,Contralateral,PT - Contralateral,44,27.9,8.9,0,27.3,16.7,NA,NA,NA,1,NA,1,NA
+deSouzaBorges 2022,2,Ipsilateral,PT - Ipsilateral,44,26.3,6.2,0,25,4,NA,NA,NA,1,NA,1,NA
+Devitt 2022,1,Injured KF,mixed,32,24.2,6.7,11,NA,NA,NA,NA,NA,1,NA,1,NA
+Devitt 2022,2,Intact KF,mixed,90,24.2,6.3,32,NA,NA,NA,NA,NA,1,NA,1,NA
+Dragicevic 2022,1,Group A,HS,35,27.21,1.45,4,NA,NA,NA,NA,NA,1,NA,1,NA
+Dragicevic 2022,2,Group B,HS,35,27.43,2.97,6,NA,NA,NA,NA,NA,1,NA,1,NA
+Drigny 2022,1,Group 1,mixed,113,25.2,9.7,47,NA,NA,NA,NA,NA,NA,NA,0,NA
+Duckett 2021,1,ACLR,mixed,77,21.9,7.8,37,NA,NA,NA,NA,NA,1,NA,0,NA
+Duckett 2021,2,Healthy Control,"NA",76,22,4.2,42,NA,NA,NA,NA,NA,1,NA,0,NA
+Ebert 2021a,1,Entire cohort,HS,50,28.3,9.1,16,24.6,2.8,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (men and women)),0,NA
+Ebert 2021a,2,Males,HS,34,NA,NA,0,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (men and women)),0,NA
+Ebert 2021a,3,Females,HS,16,NA,NA,16,NA,NA,NA,NA,NA,0,Group 1 is whole cohort of 2 and 3 (men and women)),0,NA
+Ebert 2021b,1,Entire cohort,HS,50,28.3,9.1,16,24.6,2.8,NA,NA,NA,NA,NA,0,NA
+Ebert 2022a,1,DB Hams,HS,69,30.8,10.6,25,26,3.1,6,NA,NA,1,NA,1,NA
+Ebert 2022a,2,DB Hams LARS,LARS + HS,67,31.1,9.3,22,26.2,3.1,5.8,NA,NA,1,NA,1,NA
+Faleide 2021,1,Group 1,mixed,103,28.7,10,58,NA,NA,NA,NA,NA,NA,NA,0,NA
+Faltstrom 2021,1,ACLR,mixed,117,20,2,117,NA,NA,NA,NA,NA,1,NA,0,NA
+Faltstrom 2021,2,Healthy Control,"NA",119,19,3,119,NA,NA,NA,NA,NA,1,NA,0,NA
+Felix 2022,1,ACL group,not stated,34,25.05,6.82,7,23.62,2.72,7.6,NA,NA,1,NA,0,NA
+Felix 2022,2,Healthy Control,"NA",40,27.7,8.16,7,23.68,0.29,8,NA,NA,1,NA,0,NA
+Gauthier 2022,1,Group 1,mixed,303,27,8,91,24.3,4.2,NA,NA,NA,NA,NA,0,NA
+Goto 2022,1,Group S,QT,22,35.4,10.9,22,22.8,2.6,NA,NA,NA,1,NA,1,NA
+Goto 2022,2,Group L,QT,51,33.1,11.7,51,22.7,3.8,NA,NA,NA,1,NA,1,NA
+Grondin 2022,1,Returned to running,HS - ST/G,261,26.1,6.4,79,NA,NA,NA,NA,NA,1,NA,1,NA
+Grondin 2022,2,No return to running,HS - ST/G,152,26.4,6.2,44,NA,NA,NA,NA,NA,1,NA,1,NA
+Hart 2022,1,BPTB,BPTB,297,25,4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Hart 2022,2,HT,HS,60,26,5,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Hogberg 2023,1,10 weeks,HS,43,23.3,7.3,18,24.8,2.8,NA,NA,NA,0,"Different timepoints, but overlapping patients, unclear how many (total n=137)",0,NA
+Hogberg 2023,2,4 month,HS,47,23.9,7.2,23,24.1,2.7,NA,NA,NA,0,"Different timepoints, but overlapping patients, unclear how many (total n=137)",0,NA
+Hogberg 2023,3,8 months,HS,48,24.8,7.7,22,23.9,2.6,NA,NA,NA,0,"Different timepoints, but overlapping patients, unclear how many (total n=137)",0,NA
+Hogberg 2023,4,12 months,HS,47,25.9,9.6,21,24.1,2.1,NA,NA,NA,0,"Different timepoints, but overlapping patients, unclear how many (total n=137)",0,NA
+Hunnicutt 2021,1,Total,QT,320,18.1,3.1,164,23.8,3.7,NA,NA,NA,NA,NA,0,NA
+Ivarsson 2022,1,Group 1,mixed,72,25.8,5.4,37,24.9,4,NA,NA,NA,NA,NA,0,NA
+Iwame 2021,1,Group 1,HS,83,26.6,12.4,47,23.8,4,7,NA,NA,NA,NA,0,NA
+Jeon 2022,1,Group 1,mixed,76,28.6,12,11,24.6,3.3,8,NA,NA,NA,NA,0,NA
+Jiang 2021,1,AR,HS - ST/G,33,32,9.7,4,22.9,2.5,NA,NA,NA,1,NA,1,NA
+Jiang 2021,2,"NAR",HS - ST/G,39,32.4,12.7,10,24.1,3.2,NA,NA,NA,1,NA,1,NA
+Johnston 2022,1,Quadriceps tendon,QT,35,20,8,7,NA,NA,NA,NA,NA,1,NA,1,NA
+Johnston 2022,2,Hamstring Tendon,HS,70,20,9,16,NA,NA,NA,NA,NA,1,NA,1,NA
+Keays 2022,1,Reconstructed group,mixed,56,33,NA,17,NA,NA,8.4,NA,NA,1,NA,0,NA
+Keays 2022,2,Non-reconstructed,ACLD,45,38,NA,15,NA,NA,NA,NA,NA,1,NA,0,NA
+Kim 2022,1,Q1,HS - ST/G,26,NA,NA,0,NA,NA,NA,Median 31.5 (IQR 24.0 to 37.0),Median 25.3 (IQR 23.6 to 26.8),1,NA,1,NA
+Kim 2022,2,Q2,HS - ST/G,29,NA,NA,0,NA,NA,NA,Median 33.0 (IQR 26.8 to 40.3),Median 24.5 (IQR 21.5 to 27.2),1,NA,1,NA
+Kim 2022,3,Q3,HS - ST/G,20,NA,NA,0,NA,NA,NA,Median 32.0 (IQR 27.0 to 40.5),Median 24.7 (IQR 23.7 to 27.4),1,NA,1,NA
+Kim 2023,1,Group 1,HS - ST/G,61,26.9,9.8,15,24.4,3.3,NA,NA,NA,NA,NA,0,NA
+King 2021,1,Contralateral injury,mixed,55,21.3,4.2,0,NA,NA,NA,NA,NA,1,NA,1,NA
+King 2021,2,No Contralateral injury,mixed,60,21.9,4,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Lee 2021,1,Group 1,QTPB,139,30,6.5,20,25.1,4.1,3,NA,NA,NA,NA,0,NA
+Li 2022,1,Water-based training,not stated,30,32,10,12,23,3,NA,NA,NA,1,NA,1,NA
+Li 2022,2,Land-based training,not stated,27,35,14,11,24,3,NA,NA,NA,1,NA,1,NA
+Manchado 2022,1,ST,HS - ST,22,31.7,8.5,0,NA,NA,NA,NA,NA,1,NA,1,Don't combine control
+Manchado 2022,2,ST-G,HS - ST/G,22,30.9,8.8,0,NA,NA,NA,NA,NA,1,NA,1,Don't combine control
+Manchado 2022,3,Healthy Control,"NA",22,31.4,8.6,NA,NA,NA,NA,NA,NA,1,NA,1,Don't combine control
+Manchado 2021,1,ACLR,ACLD,194,29.5,9.9,39,NA,NA,NA,NA,NA,1,NA,0,NA
+Manchado 2021,2,Healthy Control,"NA",53,29.9,8.9,7,NA,NA,NA,NA,NA,1,NA,0,NA
+Markstrom 2023,1,ACLR,HS,47,24.6,4.7,29,23.7,2.5,NA,NA,NA,1,NA,0,NA
+Markstrom 2023,2,Healthy Control,"NA",46,22.4,3.3,40,22.3,2,NA,NA,NA,1,NA,0,NA
+Mesnard 2022,1,Hamstrings,HS,59,30.1,9.8,37,23.7,3.3,NA,NA,NA,1,NA,1,NA
+Mesnard 2022,2,Hamstrings + Meniscal,HS,35,31.7,10.5,16,23.4,2.8,NA,NA,NA,1,NA,1,NA
+Moran 2022a,1,Group 1,mixed,144,21.6,8.1,75,25.4,4.4,NA,NA,NA,NA,NA,0,NA
+Moran 2022b,1,Overall,mixed,284,21.6,9.5,157,24.8,4.6,NA,NA,NA,NA,NA,0,NA
+Murakami 2023,1,R group,mixed,60,32.1,8.2,24,NA,NA,8,NA,NA,1,NA,1,NA
+Murakami 2023,2,N group,mixed,18,34.1,7.5,6,NA,NA,8,NA,NA,1,NA,1,NA
+Ohji 2021,1,All,mixed,73,21,6,31,22.5,3.8,7.8,NA,NA,NA,NA,0,NA
+Oliveira 2022,1,Intervention,Contralateral BPTB,44,28,9.48,16,23.7,9.33,NA,NA,NA,1,NA,1,NA
+Oliveira 2022,2,Control,Contralateral BPTB,44,29,9.37,13,23.5,8.54,NA,NA,NA,1,NA,1,NA
+Pedersen 2021,1,Progressive Rehabilitation Alone,ACLD,65,31.9,10.9,36,24.3,3.2,NA,NA,NA,NA,NA,0,NA
+Piussi 2022,1,ACL Re-ruptures,mixed,36,22.9,4.5,19,23.5,3,NA,NA,NA,1,NA,1,NA
+Piussi 2022,2,ACL Reconstruction,mixed,108,23,4.5,57,23,4.5,NA,NA,NA,1,NA,1,NA
+Powers 2022,1,Group 1,mixed,79,22.9,11.5,55,NA,NA,NA,NA,NA,NA,NA,0,NA
+Qiu 2022,1,ACLR,ACLD,30,NA,NA,12,22.4,2.3,7,Median 24.5 (IQR 23.0 to 29.0),NA,1,NA,0,NA
+Qiu 2022,2,Healthy Control,"NA",30,NA,NA,12,23.2,2.7,7,Median 25.5 (IQR 20.0 to 30.3),NA,1,NA,0,NA
+Rahova 2022,1,ACL group,not stated,20,25.4,5.32,0,23.47,1.2,NA,NA,NA,1,NA,0,NA
+Rahova 2022,2,Healthy Control,"NA",20,26,4.21,0,23.54,1.48,NA,NA,NA,1,NA,0,NA
+Read 2021,1,Group 1,mixed,65,24.7,NA,0,NA,NA,NA,NA,NA,NA,NA,0,NA
+Read 2022,1,ACLR,mixed,26,22.5,4,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Read 2022,2,Healthy Control,"NA",25,25.2,4.4,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Runer 2022,1,QT,QT,45,28.9,11.6,16,23.9,2.6,6,NA,NA,1,NA,1,NA
+Runer 2022,2,HT,HS,45,27.2,12.5,16,23.9,3,6,NA,NA,1,NA,1,NA
+Salatkaite 2021,1,LSI >90%,not stated,30,22.3,5.34,10,22.98,2.35,NA,NA,NA,1,NA,1,NA
+Salatkaite 2021,2,LSI <=90%,not stated,51,24.7,7.54,20,24.36,3.17,NA,NA,NA,1,NA,1,NA
+SanJose 2023,1,Group 1,HS,89,NA,NA,38,NA,NA,NA,Median 21 (IQR 18-25),NA,NA,NA,0,NA
+Schwery 2022,1,BPTB,BPTB,87,NA,NA,NA,NA,NA,NA,NA,NA,0,"Group 1, 2, 3 are graft specific split, group 4,5 is M/F split. No group specific demographics, only whole sample in paper.",1,Careful with independent groups
+Schwery 2022,2,HT,HS,21,NA,NA,NA,NA,NA,NA,NA,NA,0,"Group 1, 2, 3 are graft specific split, group 4,5 is M/F split. No group specific demographics, only whole sample in paper.",1,Careful with independent groups
+Schwery 2022,3,QT,QT,17,NA,NA,NA,NA,NA,NA,NA,NA,0,"Group 1, 2, 3 are graft specific split, group 4,5 is M/F split. No group specific demographics, only whole sample in paper.",1,Careful with independent groups
+Schwery 2022,4,Male,mixed,51,NA,NA,0,NA,NA,NA,NA,NA,0,"Group 1, 2, 3 are graft specific split, group 4,5 is M/F split. No group specific demographics, only whole sample in paper.",1,Careful with independent groups
+Schwery 2022,5,Female,mixed,74,NA,NA,74,NA,NA,NA,NA,NA,0,"Group 1, 2, 3 are graft specific split, group 4,5 is M/F split. No group specific demographics, only whole sample in paper.",1,Careful with independent groups
+Sengoku 2022,1,ST Group,HS - ST,41,21.7,9.2,20,22.4,2.9,NA,NA,NA,1,NA,1,NA
+Sengoku 2022,2,STG Group,HS - ST/G,41,19.6,7,20,22.4,3.4,NA,NA,NA,1,NA,1,NA
+Severyns 2022,1,Without ACL retear,HS,93,26.5,9,31,23.6,3.8,7,NA,NA,1,NA,1,NA
+Severyns 2022,2,With ACLR retear,HS,11,22.7,6.1,4,21.3,3.5,7.3,NA,NA,1,NA,1,NA
+Shelbourne 2022,1,Group 1,Contralateral BPTB,2148,24.3,10.1,910,NA,NA,NA,NA,NA,NA,NA,0,NA
+Slater 2022,1,ACLR,mixed,42,20.21,3.29,29,NA,NA,NA,NA,NA,1,NA,0,NA
+Slater 2022,2,Healthy Control,"NA",38,20.07,1.39,24,NA,NA,NA,NA,NA,1,NA,0,NA
+Sonesson 2021a,1,Group 1,ACLD,72,27,7,28,24,4,NA,NA,NA,NA,NA,0,NA
+Straub 2022,1,Total,mixed,434,18.6,4.4,303,23,2.8,NA,NA,NA,NA,NA,0,NA
+Suh 2021,1,Dominant,HS,58,29.5,9.1,18,24.6,3.6,NA,NA,NA,1,NA,1,NA
+Suh 2021,2,Non-dominant,HS,42,28.8,9.1,10,24,3.9,NA,NA,NA,1,NA,1,NA
+Sullivan 2022,1,Male,not stated,10,21.6,7.1,0,NA,NA,NA,NA,NA,1,NA,1,NA
+Sullivan 2022,2,Female,not stated,8,20,5.6,8,NA,NA,NA,NA,NA,1,NA,1,NA
+Suzuki 2022,1,Group 1,HS,78,22.9,10.2,42,NA,NA,NA,NA,NA,NA,NA,0,NA
+Thompson 2022,1,Men,mixed,146,NA,NA,0,NA,NA,NA,NA,NA,NA,NA,1,NA
+Thompson 2022,2,Women,mixed,153,NA,NA,153,NA,NA,NA,NA,NA,NA,NA,1,NA
+Ueda 2022,1,All patients,mixed,144,25.8,11.9,62,22.6,3,7.6,NA,NA,NA,NA,0,NA
+Ueda 2021,1,Group 1,HS,97,21.7,8.5,46,22.2,2.9,7.8,NA,NA,NA,NA,0,NA
+Vijayan 2021a,1,Rigidfix,HS,47,33.02,8.8,10,NA,NA,NA,NA,NA,1,NA,0,NA
+Vijayan 2021a,2,Rigidloop,HS,48,32.9,9.5,8,NA,NA,NA,NA,NA,1,NA,0,NA
+Vijayan 2021b,1,Total,HS,69,30.22,9.34,7,NA,NA,NA,NA,NA,NA,NA,0,NA
+Walaszek 2022,1,Both strong and symmetrical,mixed,26,18.5,3.3,8,23.2,3.3,NA,NA,NA,1,NA,1,NA
+Walaszek 2022,2,Strong only,mixed,4,20.2,1.9,1,21.9,2.7,NA,NA,NA,1,NA,1,NA
+Walaszek 2022,3,Symmetrical Only,mixed,30,18,3.5,19,25,5,NA,NA,NA,1,NA,1,NA
+Walaszek 2022,4,Neither strong nor symmetrical,mixed,113,19,3.6,72,25,4.7,NA,NA,NA,1,NA,1,NA
+Wenning 2023,1,GA,HS,47,NA,NA,16,NA,NA,NA,NA,Median 24.1 (IQR 3.9),1,NA,1,NA
+Wenning 2023,2,GA + pFNB,HS,37,NA,NA,10,NA,NA,NA,NA,Median 24.7 (IQR 4.7),1,NA,1,NA
+Wenning 2023,3,Spinal,HS,169,NA,NA,40,NA,NA,NA,NA,Median 24.5 (4.0),1,NA,1,NA
+Wenning 2023,4,Spinal + pFNB,HS,185,NA,NA,61,NA,NA,NA,NA,Median 24.2 (4.3),1,NA,1,NA
+Zore 2021,1,All,HS,63,34.7,12.3,26,24.9,4.4,6.7,NA,NA,NA,NA,0,NA
+Zumstein 2022,1,Dominant group,HS,48,32.33,9.85,14,NA,NA,NA,NA,NA,1,NA,1,NA
+Zumstein 2022,2,Non-dominant group,HS,52,28.61,8.83,20,NA,NA,NA,NA,NA,1,NA,1,NA
+DeFroda 2021,1,Low tension,mixed,32,25.66,10.05,17,NA,NA,NA,NA,NA,1,NA,1,NA
+DeFroda 2021,2,High tension,mixed,31,22.48,7.66,19,NA,NA,NA,NA,NA,1,NA,1,NA
+Ohsawa 2021,1,NR,mixed,34,27.2,11.7,17,NA,NA,9,NA,NA,1,NA,1,NA
+Ohsawa 2021,2,R,mixed,62,23.4,10.2,22,NA,NA,8.5,NA,NA,1,NA,1,NA
+Plocki 2022,1,Group 1,HS - ST/G,51,34.4,7.2,13,NA,NA,NA,NA,NA,NA,NA,0,NA
+Sonesson 2021b,1,Group 1,ACLD,68,30.6,8.3,30,NA,NA,NA,NA,NA,NA,NA,0,NA
+Wongcharoenwatana 2019,1,Group 1,not stated,60,29.6,NA,7,NA,NA,NA,NA,NA,NA,NA,0,NA
+Raoul 2018,1,Group 1,mixed,182,28.7,8.6,50,23.5,3.3,NA,NA,NA,NA,NA,0,NA
+Zhi-Cheng 2018,1,Group 1,HS,118,25.66,5.18,40,24.16,3.28,NA,NA,NA,NA,NA,0,NA
+Mitomo 2023,1,Group 1,HS,50,20,12.3,28,23.1,3,7,NA,NA,NA,NA,0,NA
+Marigi 2022,1,No SACL,mixed,285,26.5,10.9,127,NA,NA,NA,NA,NA,1,NA,1,NA
+Marigi 2022,2,SACL,mixed,59,24.1,9.6,30,NA,NA,NA,NA,NA,1,NA,1,NA
+Czamara 2010b,1,ACLR,HS - ST/G,54,25.5,8.3,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Czamara 2010b,2,Healthy Control,"NA",54,24.4,5.1,0,NA,NA,NA,NA,NA,1,NA,0,NA
+Kim 2019,1,Group A,BPTB,83,29.9,10,16,NA,NA,6.3,NA,NA,1,NA,1,NA
+Kim 2019,2,Group B,BPTB,38,32.2,11.2,8,NA,NA,6.3,NA,NA,1,NA,1,NA
+Kim 2019,3,Group C,BPTB,35,31.7,9.5,4,NA,NA,6.5,NA,NA,1,NA,1,NA
+Kim 2019,4,Group D,BPTB,29,29.1,12,4,NA,NA,6.5,NA,NA,1,NA,1,NA
+Krych 2015,1,FNB,BPTB,96,21.2,7.4,35,NA,NA,NA,NA,NA,1,NA,1,NA
+Krych 2015,2,Control,BPTB,100,20.2,5.9,65,NA,NA,NA,NA,NA,1,NA,1,NA
+Tajima 2020,1,BPTB-G,BPTB-G,32,22.7,8.9,2,28.4,5.6,NA,NA,NA,1,NA,1,NA
+Tajima 2020,2,ST-G,HS - ST/G,43,24.8,7.3,3,23.5,2.8,NA,NA,NA,1,NA,1,NA
+Ageberg 2016,1,Training Only,ACLD,18,NA,NA,6,NA,NA,NA,NA,NA,NA,NA,0,NA
+Goetschius 2019,1,Non-BTPB,mixed,25,21.7,3.4,19,NA,NA,NA,NA,NA,1,NA,1,exclude controls from combo
+Goetschius 2019,2,BTB,BPTB,26,24.1,5.4,18,NA,NA,NA,NA,NA,1,NA,1,exclude controls from combo
+Goetschius 2019,3,Healthy Control,"NA",21,22.2,3.1,13,NA,NA,NA,NA,NA,1,NA,1,exclude controls from combo
+Beretta-Piccoli 2016,1,Healthy Control,"NA",19,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,0,NA
+Beretta-Piccoli 2016,2,R12,HS,10,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,0,NA
+Beretta-Piccoli 2016,3,R24,HS,23,NA,NA,NA,NA,NA,NA,NA,NA,1,NA,0,NA
+Bjornsson 2016,1,PT,BPTB,61,28.2,9.1,19,NA,NA,NA,NA,NA,1,NA,1,NA
+Bjornsson 2016,2,HT,HS,86,26.8,7.6,33,NA,NA,NA,NA,NA,1,NA,1,NA
+Rhatomy 2019,1,Group 1,Peroneus Longus,31,27.58,8.69,9,NA,NA,NA,NA,NA,NA,NA,0,NA
+Pietrosimone 2016,1,Group 1,mixed,96,21.7,3.85,62,NA,NA,NA,NA,NA,NA,NA,0,NA

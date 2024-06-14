@@ -1,0 +1,639 @@
+---
+title: "Hop ROB Sensitivity Analysis"
+author: "Mick Girdwood"
+date: '`r format(Sys.time(), "%d %B, %Y")`'
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, warning = FALSE, message = FALSE, error = FALSE)
+
+black <- "#000000"
+orange <- "#E69F00"
+lightblue <- "#56B4E9"
+green <- "#009E73"
+yellow <- "#F0E442"
+blue <- "#0072B2"
+red <- "#D55E00"
+pink <- "#CC79A7"
+
+library(tidyverse)
+
+within_data <- read_csv("data/processed/within_data.csv") %>%
+  filter(!study %in% c("Geoghegan 2007", "Karanikas 2004", "Karanikas 2005", "Nicholas 2001", 
+                       "Urabe 2002", "Tate 2017", "Dalton 2011", "Hall 2015", "Noehren 2014", "Rahova 2020",
+                       "Thomas 2013", "Balki 2019", "Rhatomy", "Sullivan 2022"))
+
+# filtering studies that were included in hip review (where no limit on publication year), but need to remove forthis review
+casecontrol <- read_csv("data/processed/casecontrol.csv") %>%
+  filter(!study %in% c("Geoghegan 2007", "Karanikas 2004", "Karanikas 2005", "Nicholas 2001", 
+                       "Urabe 2002", "Tate 2017", "Dalton 2011", "Hall 2015", "Noehren 2014", "Rahova 2020",
+                       "Thomas 2013", "Balki 2019", "Rhatomy", "Sullivan 2022"))
+
+rob <- read_csv("data/processed/rob_final.csv") %>%
+  mutate(rob_analysis = case_when(
+    outcome_c != "Low" & blinding_assessor_c != "Low" & selection_c != "Low" ~ "High",
+    TRUE ~ "Low"))
+
+within_data <- left_join(within_data, rob %>% select(study, rob_analysis), by = "study")
+casecontrol <- left_join(casecontrol, rob %>% select(study, rob_analysis), by = "study")
+
+
+## Functions:
+
+
+pointsfunction <- function(data){
+  data %>%
+    select(ci.ub, x) %>% 
+    bind_rows(., data %>% 
+                select(ci.lb, x) %>% 
+                rename(ci.ub = ci.lb) %>% 
+                arrange(desc(x)))
+}
+
+pi_pointsfunction <- function(data){
+  data %>%
+    select(pi.ub, x) %>% 
+    bind_rows(., data %>% 
+                select(pi.lb, x) %>% 
+                rename(pi.ub = pi.lb) %>% 
+                arrange(desc(x)))
+}
+
+mv_plotfunction_rob <- function(model, model2){
+  
+  knot_pos <- NULL # set to 0 for logic to work later
+  
+  moderator <- as.character(model$call$mods[2]) # get the moderator variable
+  data <- model$data # get the data
+  
+  last_timepoint <- round(max(data$timepoint_mean),0)
+  
+  total_k  <- model$k
+  total_studies <- data %>% filter(!is.na(vi)) %>% summarise(n = length(unique(study))) %>% as.numeric()
+  total_n <- data %>% distinct(cohort, .keep_all = TRUE)  %>% filter(!is.na(vi)) %>% summarise(n = sum(acl_n)) %>% as.numeric
+  
+  if (str_detect(moderator, "rcs")) { # if a rcs is used, extract the information
+    spline <- as.list(model$formula.mods[[2]][[3]]) 
+    knot_pos <- unlist(spline[sapply(spline, is.numeric)]) # this gets the vector of knot positions or no. of knots
+  }
+  
+  # depending on the type od moderator (i.e. log, linear, rcs...) calculate the predicted curve points
+  mod_type <- if (str_detect(moderator, "log")) {
+    
+    #log
+    points <- data.frame(predict(robust(model, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods = log(seq(1,100, length = 100)),
+                                 transf = exp
+    )) %>% mutate(x = row_number())
+    
+  } else if (str_detect(moderator, "poly")) {
+    
+    # poly
+    points <- data.frame(predict(robust(model, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=unname(poly(seq(1,100, length = 100), degree = 2, raw=TRUE)),
+                                 transf = exp
+    )) %>% mutate(x = row_number())
+    
+  } else if (length(knot_pos) == 3) {
+    
+    # 3 knot rcs
+    knots <- attr(rcs(model.matrix(model)[,2], knot_pos), "parms")
+    points <- data.frame(predict(robust(model, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=rcspline.eval(seq(1,100, length = 100), knots, inclx=TRUE),
+                                 transf = exp)) %>% 
+      mutate(x = row_number())
+    
+  } else if (length(knot_pos) == 1) { # i.e. cases where only the number of knots is given
+    
+    # 3 knot rcs
+    knots <- attr(rcs(data$timepoint_mean, as.numeric(knot_pos)), "parms") # use model data to get knot positions
+    points <- data.frame(predict(robust(model, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=rcspline.eval(seq(1,100, length = 100), knots, inclx=TRUE),
+                                 transf = exp)) %>% 
+      mutate(x = row_number())
+    
+  } else if (length(knot_pos) == 4) {
+    
+    # 4 knot rcs
+    knots <- attr(rcs(model.matrix(model)[,2], knot_pos), "parms")
+    points <- data.frame(predict(robust(model, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=rcspline.eval(seq(1,100, length = 100), knots, inclx=TRUE),
+                                 transf = exp)) %>% 
+      mutate(x = row_number())
+    
+  } else {
+    # Linear
+    points <- data.frame(predict(robust(model, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods = seq(1,100, length = 100),
+                                 transf = exp)) %>% mutate(x = row_number())
+  }
+  
+  # calculate ci points
+  ci <-  pointsfunction(points)
+  
+  ci <- ci %>% filter(x < last_timepoint + 6)
+  points <- points %>% filter(x < last_timepoint + 6)
+  
+  
+  #### 2nd model
+  
+  knot_pos2 <- NULL # set to 0 for logic to work later
+  
+  moderator2 <- as.character(model2$call$mods[2]) # get the moderator variable
+  data2 <- model2$data # get the data
+  
+  last_timepoint2 <- round(max(data2$timepoint_mean),0)
+  
+  if (str_detect(moderator, "rcs")) { # if a rcs is used, extract the information
+    spline2 <- as.list(model2$formula.mods[[2]][[3]]) 
+    knot_pos2 <- unlist(spline[sapply(spline, is.numeric)]) # this gets the vector of knot positions or no. of knots
+  }
+  
+  # depending on the type od moderator (i.e. log, linear, rcs...) calculate the predicted curve points
+  mod_type2 <- if (str_detect(moderator, "log")) {
+    
+    #log
+    points2 <- data.frame(predict(robust(model2, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods = log(seq(1,100, length = 100)),
+                                 transf = exp
+    )) %>% mutate(x = row_number())
+    
+  } else if (str_detect(moderator, "poly")) {
+    
+    # poly
+    points2 <- data.frame(predict(robust(model2, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=unname(poly(seq(1,100, length = 100), degree = 2, raw=TRUE)),
+                                 transf = exp
+    )) %>% mutate(x = row_number())
+    
+  } else if (length(knot_pos) == 3) {
+    
+    # 3 knot rcs
+    knots2 <- attr(rcs(model.matrix(model2)[,2], knot_pos2), "parms")
+    points2 <- data.frame(predict(robust(model2, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=rcspline.eval(seq(1,100, length = 100), knots2, inclx=TRUE),
+                                 transf = exp)) %>% 
+      mutate(x = row_number())
+    
+  } else if (length(knot_pos2) == 1) { # i.e. cases where only the number of knots is given
+    
+    # 3 knot rcs
+    knots2 <- attr(rcs(data2$timepoint_mean, as.numeric(knot_pos2)), "parms") # use model data to get knot positions
+    points2 <- data.frame(predict(robust(model2, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=rcspline.eval(seq(1,100, length = 100), knots2, inclx=TRUE),
+                                 transf = exp)) %>% 
+      mutate(x = row_number())
+    
+  } else if (length(knot_pos2) == 4) {
+    
+    # 4 knot rcs
+    knots2 <- attr(rcs(model.matrix(model2)[,2], knot_pos2), "parms")
+    points2 <- data.frame(predict(robust(model2, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods=rcspline.eval(seq(1,100, length = 100), knots2, inclx=TRUE),
+                                 transf = exp)) %>% 
+      mutate(x = row_number())
+    
+  } else {
+    # Linear
+    points2 <- data.frame(predict(robust(model2, cluster = cohort, clubSandwich = TRUE), 
+                                 newmods = seq(1,100, length = 100),
+                                 transf = exp)) %>% mutate(x = row_number())
+  }
+  
+  # calculate ci points
+  ci2 <-  pointsfunction(points2)
+  
+  ci2 <- ci2 %>% filter(x < last_timepoint2 + 6)
+  points2 <- points2 %>% filter(x < last_timepoint2 + 6)
+  
+  data3 <- data2 %>% filter(rob_analysis == "Low")
+  
+  total_k2  <- model2$k
+  total_studies2 <- data3 %>% filter(!is.na(vi)) %>% summarise(n = length(unique(study))) %>% as.numeric()
+  total_n2 <- data3 %>% distinct(cohort, .keep_all = TRUE)  %>% filter(!is.na(vi)) %>% summarise(n = sum(acl_n)) %>% as.numeric
+  
+  
+  
+  total_nrob <- paste0(total_n, " - ", total_n - total_n2)
+  rob <- total_studies - total_studies2
+
+    
+    # plot data and predicted model
+    plot <- data %>%
+      ggplot(aes(x = timepoint_mean, y = exp(yi), group = cohort)) +
+      geom_point(aes(size = acl_n, colour = rob_analysis), alpha = 0.3) + 
+      scale_colour_manual(values = c("red", "black"), name = "ROB") +
+      geom_line(alpha = 0.8, colour = "grey") + 
+      scale_y_continuous(breaks = c(0.6, 0.8, 1.0, 1.2), labels = c("-40%", "-20%", "0%", "+20%")) +
+      #scale_y_continuous(labels = scales::percent, limits = c(-0.75, 0.25)) +
+      scale_x_continuous(breaks = c(0, 12, 24, 60, 120), labels = c(0, 1, 2, 5, 10)) +
+      coord_cartesian(xlim = c(0,100), ylim = c(0.5, 1.2)) +
+      scale_size(range = c(0, 10)) +
+      labs(x = "Time since surgery (Months)", y = "Percentage Deficit", colour = "Measure", size = "Participants (n)") +
+      #geom_smooth(aes(x = timepoint_mean, y = yi), method = "lm", colour = "green", inherit.aes = FALSE) +
+      #geom_abline(intercept = -0.2198, slope = 0.0014, colour = "red") +
+      geom_line(data = points, aes(x = x, y = pred), colour = "red", linewidth = 1.3, inherit.aes = FALSE) +
+      geom_polygon(data = ci, aes(x = x, y = ci.ub), fill = "red",  alpha = 0.1, inherit.aes = FALSE) +
+      geom_line(data = points2, aes(x = x, y = pred), colour = "blue", linewidth = 1.3, inherit.aes = FALSE) +
+      geom_polygon(data = ci2, aes(x = x, y = ci.ub), fill = "blue",  alpha = 0.1, inherit.aes = FALSE) +
+      annotate(geom = "text", x = 100, y = 0.5, label = paste0(rob, " studies removed"), family = "Karla", hjust = 1) +
+      annotate(geom = "text", x = 100, y = 0.55, label = paste0("n = ", total_nrob), family = "Karla", hjust = 1) +
+      theme_mgpub() +
+            theme(panel.grid.major.x = element_line(linewidth = rel(0.5), linetype = 2))
+
+  
+  return(plot)
+  
+}
+```
+
+```{r libraries}
+library(metafor) # for meta-analysis
+library(clubSandwich) # for covariance matrix and robust ci estimates
+library(rms) # for fitting splines
+library(ellipse)
+library(ggpubr)
+library(mgfunctions)
+library(kableExtra)
+```
+# Within-Person
+
+## 1. Single Hop - Within Person
+
+```{r singlehop}
+
+# Single Leg Hop Data
+singlehop_data <- within_data %>%
+  rename(acl_graft_group = graft_group) %>%
+  filter(str_detect(measure, "single hop")) %>%
+  filter(timepoint_mean >0.2, # no pre-operative data
+         timepoint_mean < 120, # limiting to 10 years post ACLR
+         str_detect(graft, "contralateral|Contralateral", negate = TRUE)) %>% #
+  mutate(es_id = row_number()) %>%
+  filter(study != "Karikis 2016")
+
+```
+
+
+### Specify covariance matrix
+
+```{r single cov}
+hopV <- impute_covariance_matrix(vi = singlehop_data$vi, 
+                                  cluster = singlehop_data$cohort, # cluster by cohort
+                                  ti = singlehop_data$timepoint_mean, # timepoint variable
+                                  ar1 = 0.85, # auto-correlation between timepoints
+                                  check_PD = TRUE, # check positive/defininte
+                                  smooth_vi = TRUE,
+                                  return_list = FALSE) # return the full matrix
+
+```
+
+### Single Leg Hop
+
+```{r singlehop final}
+
+singlehop_mv <- rma.mv(yi, hopV, 
+                       mods = ~rcs(timepoint_mean, 4),
+                          data = singlehop_data, 
+                          random = list(~ timepoint_mean|cohort),
+                          struct = c("CAR"))
+
+singlehop_mv_rob <- rma.mv(yi, hopV, 
+                       mods = ~rcs(timepoint_mean, 4),
+                          data = singlehop_data, 
+                          random = list(~ timepoint_mean|cohort),
+                          struct = c("CAR"),
+                       subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(singlehop_mv, singlehop_mv_rob)
+
+
+```
+
+## 2. Triple Hop
+
+```{r triplehop}
+triplehop_data <- within_data %>%
+  rename(acl_graft_group = graft_group) %>%
+  filter(str_detect(measure, "triple hop")) %>%
+  filter(timepoint_mean >2, # no pre-operative data
+         timepoint_mean < 120,
+         str_detect(graft, "contralateral|Contralateral", negate = TRUE)) %>% 
+  mutate(es_id = row_number())
+
+```
+
+### Specify covariance matrix
+
+```{r triple cov}
+
+triplehopV <- impute_covariance_matrix(vi = triplehop_data$vi, 
+                                 cluster = triplehop_data$cohort,
+                                 ti = triplehop_data$timepoint_mean,
+                                 ar1 = 0.85,
+                                 check_PD = TRUE,
+                                 smooth_vi = TRUE,
+                                 return_list = FALSE)
+
+```
+
+### Triple Hop 
+(not crossover)
+
+```{r triplehop final}
+
+triplehop_mv <- rma.mv(yi, triplehopV, 
+                       mods = ~log(timepoint_mean),
+                       data = triplehop_data, 
+                       random = list(~ timepoint_mean|cohort),
+                       struct = c("CAR"))
+
+triplehop_mv_rob <- rma.mv(yi, triplehopV, 
+                       mods = ~log(timepoint_mean),
+                       data = triplehop_data, 
+                       random = list(~ timepoint_mean|cohort),
+                       struct = c("CAR"),
+                       subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(triplehop_mv, triplehop_mv_rob)
+
+
+```
+
+## 3. Triple Crossover Hop
+
+```{r triplexhop}
+triplexhop_data <- within_data %>%
+  rename(acl_graft_group = graft_group) %>%
+  filter(str_detect(measure, "triple crossover hop")) %>%
+  filter(timepoint_mean >2, # no pre-operative data
+         timepoint_mean < 120,
+         str_detect(graft, "contralateral|Contralateral", negate = TRUE)) %>% 
+  mutate(es_id = row_number()) 
+
+```
+
+### Specify covariance matrix
+
+```{r triplex cov}
+triplexhopV <- impute_covariance_matrix(vi = triplexhop_data$vi, 
+                                       cluster = triplexhop_data$cohort,
+                                       ti = triplexhop_data$timepoint_mean,
+                                       ar1 = 0.85,
+                                       check_PD = TRUE,
+                                       smooth_vi = TRUE,
+                                       return_list = FALSE)
+```
+
+### Final Model - Triple Crossover Hop 
+
+```{r triplexhop final}
+
+triplexhop_mv <- rma.mv(yi, triplexhopV, 
+                       mods = ~log(timepoint_mean),
+                       data = triplexhop_data, 
+                       random = list(~ timepoint_mean|cohort),
+                       struct = c("CAR"))
+
+triplexhop_mv_rob <- rma.mv(yi, triplexhopV, 
+                       mods = ~log(timepoint_mean),
+                       data = triplexhop_data, 
+                       random = list(~ timepoint_mean|cohort),
+                       struct = c("CAR"),
+                       subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(triplexhop_mv, triplexhop_mv_rob)
+
+```
+
+## 4. Side Hop
+
+```{r sidehop}
+sidehop_data <- within_data %>%
+  rename(acl_graft_group = graft_group) %>%
+  filter(str_detect(measure, "side hop")) %>%
+  filter(timepoint_mean >2, # no pre-operative data
+         timepoint_mean < 120,
+         str_detect(graft, "contralateral|Contralateral", negate = TRUE)) %>% 
+  mutate(es_id = row_number()) 
+
+```
+
+### Specify covariance matrix
+
+```{r sidehop cov}
+sidehopV <- impute_covariance_matrix(vi = sidehop_data$vi, 
+                                        cluster = sidehop_data$cohort,
+                                        ti = sidehop_data$timepoint_mean,
+                                        ar1 = 0.85,
+                                        check_PD = TRUE,
+                                        smooth_vi = TRUE,
+                                        return_list = FALSE)
+```
+
+### Final Model - Side Hop 
+
+```{r sidehop final}
+
+sidehop_mv <- rma.mv(yi, sidehopV, 
+                        mods = ~rcs(timepoint_mean, 3),
+                        data = sidehop_data, 
+                        random = list(~ timepoint_mean|cohort),
+                        struct = c("CAR"))
+
+sidehop_mv_rob <- rma.mv(yi, sidehopV, 
+                        mods = ~rcs(timepoint_mean, 3),
+                        data = sidehop_data, 
+                        random = list(~ timepoint_mean|cohort),
+                        struct = c("CAR"),
+                        subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(sidehop_mv, sidehop_mv_rob)
+
+```
+
+## 5. Vertical Hop
+
+```{r verticalhop}
+verticalhop_data <- within_data %>%
+  rename(acl_graft_group = graft_group) %>%
+  filter(str_detect(measure, "vertical hop")) %>%
+  filter(timepoint_mean >2, # no pre-operative data
+         timepoint_mean < 120,
+         str_detect(graft, "contralateral|Contralateral", negate = TRUE)) %>% 
+  mutate(es_id = row_number()) 
+```
+
+### Specify covariance matrix
+
+```{r verticalhop cov}
+verticalhopV <- impute_covariance_matrix(vi = verticalhop_data$vi, 
+                                     cluster = verticalhop_data$cohort,
+                                     ti = verticalhop_data$timepoint_mean,
+                                     ar1 = 0.85,
+                                     check_PD = TRUE,
+                                     smooth_vi = TRUE,
+                                     return_list = FALSE)
+```
+
+### Final Model - Vertical Hop 
+
+```{r verticalhop final}
+
+verticalhop_mv <- rma.mv(yi, verticalhopV, 
+                     mods = ~log(timepoint_mean),
+                     data = verticalhop_data, 
+                     random = list(~ timepoint_mean|cohort),
+                     struct = c("CAR"))
+
+verticalhop_mv_rob <- rma.mv(yi, verticalhopV, 
+                     mods = ~log(timepoint_mean),
+                     data = verticalhop_data, 
+                     random = list(~ timepoint_mean|cohort),
+                     struct = c("CAR"),
+                      subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(verticalhop_mv, verticalhop_mv_rob) + scale_colour_manual(values = c("black"), name = "ROB")
+
+```
+
+
+## 6. 6m timed Hop
+
+```{r sixmhop}
+
+sixmhop_data_pre <- within_data %>%
+  rename(acl_graft_group = graft_group) %>%
+  filter(str_detect(measure, "6m timed hop")) %>%
+  filter(timepoint_mean >2, # no pre-operative data
+         timepoint_mean < 120,
+         str_detect(graft, "contralateral|Contralateral", negate = TRUE)) %>% 
+  mutate(es_id = row_number()) 
+
+# Some studies invert 6m hop data results (as 6m hop score = better = lower score)
+# Have individually checked all studies, some need to be switched
+
+# These studies report the raw for injured mean and non-injured, so to calcualte LSI, need to take non-inj / inj
+invert6m <- sixmhop_data_pre %>%
+  filter(study %in% c("Ebert 2018", "Norte 2020", "Ebert 2019", "Meierbachtol 2017", "Logerstedt 2013", "Moran 2022a",
+                      "Sonesson 2021b", "Sonesson 2021a")) %>%
+  escalc(ni = acl_n, m1i = noninj_mean, sd1i = noninj_sd, m2i = inj_mean, sd2i = inj_sd, ri = ri, 
+         data = ., measure = "ROMC") %>%
+  mutate(yi = case_when(
+           is.na(yi) & !is.na(lsi_mean) ~ log(lsi_mean),
+           TRUE ~ yi),
+         vi = case_when(
+           is.na(vi) & !is.na(lsi_mean) ~ lsi_sd^2/(acl_n * lsi_mean^2),
+           TRUE ~ vi))
+
+# These studies only report LSI, take the inverse of the LSI
+invert6mlsi <- sixmhop_data_pre %>%
+  filter(study %in% c("Norte 2019b", "Arhos 2020a", "Barnett 2020", "Reinke 2011")) %>%
+  select(-c(yi:ci.ub)) %>%
+  mutate(lsi_mean = 1/lsi_mean) %>%
+  mutate(yi = log(lsi_mean),
+         vi = lsi_sd^2/(acl_n * lsi_mean^2))
+
+# Join back Together
+sixmhop_data <- bind_rows(sixmhop_data_pre %>% filter(!study %in% c("Ebert 2018", "Norte 2020", "Ebert 2019", "Meierbachtol 2017", "Logerstedt 2013", "Moran 2022a",
+                                                "Sonesson 2021b", "Sonesson 2021a", "Norte 2019b", "Arhos 2020a", "Barnett 2020", "Reinke 2011")),
+          invert6m) %>%
+  bind_rows(., invert6mlsi) 
+```
+
+### Specify covariance matrix
+
+```{r sixmhop cov}
+
+sixmhopV <- impute_covariance_matrix(vi = sixmhop_data$vi, 
+                                         cluster = sixmhop_data$cohort,
+                                         ti = sixmhop_data$timepoint_mean,
+                                         ar1 = 0.85,
+                                         check_PD = TRUE,
+                                         smooth_vi = TRUE,
+                                         return_list = FALSE)
+```
+
+### Final Model - 6m timed hop 
+
+```{r sixmhop final}
+
+sixmhop_mv <- rma.mv(yi, sixmhopV, 
+                         mods = ~log(timepoint_mean),
+                         data = sixmhop_data, 
+                         random = list(~ timepoint_mean|cohort),
+                         struct = c("CAR"))
+
+sixmhop_mv_rob <- rma.mv(yi, sixmhopV, 
+                         mods = ~log(timepoint_mean),
+                         data = sixmhop_data, 
+                         random = list(~ timepoint_mean|cohort),
+                         struct = c("CAR"),
+                         subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(sixmhop_mv, sixmhop_mv_rob)
+
+
+```
+
+
+
+
+# Case Control
+
+Significantly less data available for between person/case control comparisons. Only single hop has enough data to run same analysis as within person.
+
+## 1. Single Hop - Between Person
+
+```{r singlehopcont}
+
+singlehopcont_data <- casecontrol %>%
+  rename(timepoint_mean = acl_timepoint_mean) %>%
+  filter(str_detect(measure, "single hop")) %>%
+  filter(timepoint_mean >2, # no pre-operative data
+         timepoint_mean < 120) %>% 
+  mutate(es_id = row_number()) 
+
+```
+
+
+### Specify covariance matrix
+
+
+```{r singlehopcont cov}
+hopcontV <- impute_covariance_matrix(vi = singlehopcont_data$vi, 
+                                 cluster = singlehopcont_data$cohort,
+                                 ti = singlehopcont_data$timepoint_mean,
+                                 ar1 = 0.85,
+                                 check_PD = TRUE,
+                                 smooth_vi = TRUE,
+                                 return_list = FALSE)
+
+```
+
+### Final Model - Single Leg Hop
+
+```{r singlehopcont final}
+
+singlehopcont_mv <- rma.mv(yi, hopcontV, 
+                       mods = ~log(timepoint_mean),
+                       data = singlehopcont_data, 
+                       random = list(~ timepoint_mean|cohort),
+                       struct = c("CAR"))
+
+singlehopcont_mv_rob <- rma.mv(yi, hopcontV, 
+                       mods = ~log(timepoint_mean),
+                       data = singlehopcont_data, 
+                       random = list(~ timepoint_mean|cohort),
+                       struct = c("CAR"),
+                       subset = rob_analysis == "Low")
+
+mv_plotfunction_rob(singlehopcont_mv, singlehopcont_mv_rob)
+
+```
+
+

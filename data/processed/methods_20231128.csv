@@ -1,0 +1,355 @@
+study,study_id,cohort,design,primary_acl,primary_acl_ns,contra_sx,subsequent_acl,country,link_study,link_study_notes,groups
+Arhos 2020a,#3251,Arhos 2020a,1,1,NA,NA,NA,United States,NA,NA,2
+Barnett 2020,#3474,Barnett 2020,3,1,NA,NA,NA,USA,NA,NA,2
+Bodkin 2020,#2805,Bodkin 2020,7,1,NA,NA,NA,USA,NA,NA,5
+Boo 2020,#2769,Boo 2020,5,1,NA,NA,NA,Singapore,NA,NA,2
+Bookbinder 2020,#2766,Bookbinder 2020,6,1,NA,NA,NA,US,NA,NA,2
+Carolan 2020,#2558,Carolan 2020,4,1,NA,NA,NA,Ireland,NA,NA,1
+Cristiani 2020,#2173,Cristiani 2020,1,1,NA,NA,NA,Sweden,NA,NA,4
+Curran 2020,#2106,Curran 2020,7,1,NA,NA,NA,USA,NA,NA,4
+Everhart 2020a,#1852,Everhart 2020a,5,1,NA,NA,NA,USA,NA,NA,2
+Getgood 2020,#1473,Getgood 2020,1,1,NA,1,4,"Canada, UK, Netherlands",NA,NA,2
+Guney-Deniz 2020,#1160,Guney-Deniz 2020,6,1,NA,NA,NA,Turkey,NA,NA,4
+Harput 2020a,#1010,Harput 2020a,4,1,NA,NA,NA,Turkey,NA,NA,2
+Hart 2020,#1432,Culvenor 2016,4,1,NA,NA,NA,Australia,Culvenor 2016,NA,1
+Hu 2020,#679,Hu 2020,5,1,NA,NA,NA,USA,NA,NA,2
+Hunnicutt 2020a,#173,Hunnicutt 2020a,4,1,NA,NA,NA,USA,NA,NA,2
+Iwame 2020,#15,Iwame 2020,4,1,NA,NA,NA,Japan,NA,NA,1
+Joseph 2020,#328,Joseph 2020,5,1,NA,1,NA,France,NA,NA,2
+Kew 2020,#6631,Kew 2020,4,1,NA,1,NA,USA,NA,NA,2
+Kim 2020,#6530,Kim 2020,6,1,NA,1,NA,South Korea,NA,NA,2
+Krishna 2020,#6348,Krishna 2020,1,1,NA,1,NA,Singapore,NA,"Original RCT is Krishna 2018, but no outcomes of interest reported",2
+Lee 2020,#6120,Lee 2020,5,1,NA,1,4,South Korea,NA,NA,1
+Nakanishi 2020,#4947,Nakanishi 2020,5,1,NA,3,NA,Japan,NA,NA,1
+Norte 2020,#4765,Norte 2020,6,1,NA,1,NA,USA,NA,NA,2
+O'Connor 2020,#5164,O'Connor 2020,9,1,NA,3,NA,Ireland,NA,NA,1
+Patterson 2020a,#4395,Culvenor 2016,4,1,NA,2,NA,Australia,Culvenor 2016,"Exclude 12m timepoint as overlaps with Culvenor 2016, except for one leg rise data (not previously reported)",2
+Pei-An 2020,#4363,Pei-An 2020,7,1,NA,1,NA,Taiwan,NA,NA,2
+Piussi 2020,#4235,Beischer 2019,4,1,NA,1,NA,Sweden,Beischer 2019,Project ACL -   (Beischer 2018) - only partial cohort reported  Beischer 2019  Beischer 2022    Registry grows in time. This study is largest reported so far.,2
+Rhim 2020,#4431,Rhim 2020,6,1,NA,1,NA,South Korea,NA,NA,2
+Riesterer 2020,#4407,Riesterer 2020,5,1,NA,1,NA,Switzerland,NA,NA,1
+Roger 2020,#3930,Roger 2020,1,1,NA,1,NA,France,NA,NA,2
+Sherman 2020,#8754,Sherman 2020,4,1,NA,1,NA,USA,NA,NA,1
+Stropnik 2020,#8405,Stropnik 2020,4,1,NA,1,NA,Slovenia,NA,NA,2
+Welling 2020,#7293,Welling 2020,5,1,NA,3,NA,Netherlands,NA,NA,2
+Yuya 2020,#7046,Yuya 2020,5,1,NA,1,NA,Japan,NA,NA,4
+Sipka 2019,#8348,Sipka 2019,4,1,NA,1,NA,Slovenia,NA,NA,1
+Akoto 2019,#3545,Akoto 2019,5,1,NA,1,1,Germany,NA,NA,2
+Almeida 2019,#3357,Almeida 2019,4,1,NA,1,3,Brazil,NA,NA,1
+Bailey 2019,#3115,Bailey 2019,1,1,NA,3,3,USA,NA,NA,2
+Batty 2019,#3423,Batty 2019,4,1,NA,1,3,Australia,NA,NA,1
+Beischer 2019,#3070,Beischer 2019,4,1,NA,3,3,Sweden,NA,(Beischer 2018) - however only partial cohort reported.  Hamrin Senorski 2017 also cited but seems reporting of earlier database.,2
+Cristiani 2019,#2174,Cristiani 2019,5,1,NA,1,3,Sweden,NA,NA,2
+Dempsey 2019,#1708,Dempsey 2019,9,1,NA,1,3,USA,NA,NA,3
+Dobija 2019,#1654,Dobija 2019,6,1,NA,3,3,USA,NA,NA,2
+Ebert 2019,#1369,Ebert 2019,8,1,NA,3,3,Australia,NA,NA,1
+Huber 2019,#209,Huber 2019,4,1,NA,1,3,Switzerland,NA,NA,2
+Hughes 2019a,#194,Hughes 2019a,5,1,NA,1,3,USA,NA,NA,6
+Keays 2019,#6667,Keays 2019,4,1,NA,1,1,Australia,NA,NA,1
+Kouloumentas 2019,#6813,Kouloumentas 2019,1,1,NA,1,4,Greece,NA,NA,2
+Krolikowska 2019,#6298,Krolikowska 2019,6,1,NA,3,3,Poland,NA,NA,3
+Kuenze 2019a,#6268,Kuenze 2019a,4,1,NA,1,3,USA,NA,NA,2
+Kuenze 2019b,#6265,Kuenze 2019b,4,1,NA,3,3,USA,NA,NA,6
+Lee 2019,#6117,Lee 2019,5,1,NA,1,3,South Korea,NA,NA,2
+Leister 2019,#5881,Leister 2019,6,1,NA,1,3,Austria,NA,NA,3
+Mariani 2019,#6033,Mariani 2019,4,1,NA,1,3,Italy,NA,NA,1
+Miles 2019,#5333,Miles 2019,6,1,NA,3,3,Ireland,NA,NA,3
+Murray 2019b,#5046,Murray 2019b,8,1,NA,1,3,USA,NA,NA,1
+Norte 2019a,#4761,Norte 2019a,6,1,NA,1,3,USA,NA,NA,2
+Norte 2019b,#4759,Norte 2019b,6,1,NA,1,3,USA,NA,NA,2
+Peebles 2019b,#4370,Peebles 2019b,6,1,NA,3,3,USA,NA,NA,2
+Raoul 2019,#4079,Raoul 2019,4,1,NA,3,3,France,NA,NA,1
+Shibata 2019,#8739,Shibata 2019,5,1,NA,1,3,Japan,NA,NA,3
+Strong 2019,#8406,Tengman 2014a,6,1,NA,1,3,Sweden,Tengman 2014a,NA,3
+Sundemo 2019,#7907,Ejerhed 2003; Laxdal 2005,3,1,NA,1,4,Sweden,Ejerhed 2003; Laxdal 2005,NA,1
+Welling 2019,#7294,Welling 2019,6,1,NA,3,3,Netherlands,NA,NA,2
+Barie 2018,#3484,Barie 2018,5,1,NA,1,3,Germany,NA,NA,1
+Blakeney 2018,#2822,Blakeney 2018,6,1,NA,1,3,France,NA,NA,3
+Calvo-Lobo 2018,#2924,Calvo-Lobo 2018,6,1,NA,1,3,Spain,NA,NA,2
+Czamara 2018,#2096,Czamara 2018,6,1,NA,3,3,Poland,NA,NA,2
+Ebert 2018,#1368,Ebert 2018,4,1,NA,1,4,Australia,NA,NA,1
+Edwards 2018,#1353,Edwards 2018,4,1,NA,1,4,Australia,NA,NA,2
+Fischer 2018,#1282,Fischer 2018,5,1,NA,1,4,Austria,NA,NA,2
+Flosadottir 2018,#1244,Ericsson 2013,3,1,NA,2,4,Sweden,Ericsson 2013,Frobell 2010 doesn't report the test results of interest but is the original RCT,3
+Grindem 2018,#608,Grindem 2014,4,1,NA,1,4,USA; Norway,Grindem 2014,NA,1
+Gupta 2018,#1140,Gupta 2018,5,1,NA,1,3,India,NA,NA,3
+Harput 2018,#1006,Harput 2018,9,1,NA,3,3,Turkey,NA,NA,1
+Johnson 2018,#369,Johnson 2018,6,1,NA,1,4,USA,NA,NA,2
+King 2018,#6500,King 2018,9,1,NA,1,3,Ireland,NA,NA,1
+Kline 2018,#6462,Kline 2018,6,1,NA,1,4,USA,NA,NA,2
+Kovalak 2018,#6805,Kovalak 2018,5,1,NA,1,4,Turkey,NA,NA,2
+Kwak 2018,#6211,Kwak 2018,5,1,NA,1,4,South Korea,NA,NA,2
+Labanca 2018,#6192,Labanca 2018,1,1,NA,3,3,Italy,NA,NA,3
+Lee 2018a,#6116,Lee 2018a,5,1,NA,1,1,South Korea,NA,NA,1
+Lee 2018b,#6115,Lee 2018b,5,1,NA,3,3,South Korea,NA,NA,2
+Meierbachtol 2018,#5460,Meierbachtol 2018,5,1,NA,3,3,USA,NA,NA,1
+Nishio 2018,#4809,Nishio 2018,5,1,NA,1,4,Japan,NA,NA,1
+Norte 2018,#4764,Norte 2018,6,1,NA,1,3,USA,NA,NA,3
+Novaretti 2018,#4755,Novaretti 2018,5,1,NA,1,3,Brazil,NA,NA,1
+O'Malley 2018,#5162,O'Malley 2018,6,1,NA,1,3,Ireland,NA,NA,2
+Pamukoff 2018,#4562,Pamukoff 2018,6,1,NA,1,4,USA,NA,NA,2
+Runner 2018,#3839,Runner 2018,1,1,NA,1,4,USA,NA,NA,2
+Van Yperen 2018,#7530,Van Yperen 2018,4,1,NA,3,1,Netherlands,NA,NA,2
+Webster 2018,#7672,Webster 2018,4,1,NA,3,4,Australia,NA,NA,2
+Welling 2018a,#7292,Welling 2018a,4,1,NA,3,3,Netherlands,NA,NA,2
+Welling 2018b,#7291,Welling 2018b,4,1,NA,3,3,Netherlands,NA,NA,1
+Wellsandt 2018b,#7287,Eitzen 2010; Hartigan 2009,4,1,NA,3,3,USA,Eitzen 2010; Hartigan 2009,NA,2
+Baumgart 2017,#3411,Baumgart 2017,4,1,NA,1,4,Germany,NA,NA,1
+Bodkin 2017,#2810,Bodkin 2017,9,1,NA,3,3,USA,NA,NA,3
+Chen 2017,#2424,Chen 2017,6,1,NA,3,3,Taiwan,NA,NA,3
+Christensen 2017,#2679,Christensen 2017,5,1,NA,1,3,USA,NA,NA,2
+Drocco 2017,#1589,Drocco 2017,7,1,NA,1,NA,Italy,NA,NA,2
+Engelen-VanMelick 2017,#1938,Engelen-VanMelick 2017,6,1,1,1,4,Netherlands,NA,NA,6
+Falstrom 2017,#1823,Falstrom 2017,6,1,NA,3,3,Sweden,NA,NA,2
+Fischer 2017,#1283,Fischer 2017,5,1,NA,3,3,Austria,NA,NA,2
+Gokeler 2017a,#823,Gokeler 2017a,9,1,NA,1,4,Netherlands,NA,NA,4
+Haillotte 2017,#1109,Haillotte 2017,5,1,NA,1,3,France,NA,NA,1
+Hamrin Senorski 2017,#1077,Hamrin Senorski 2017,4,1,NA,3,3,Sweden,NA,NA,4
+KyoungHo 2017,#6205,KyoungHo 2017,5,1,NA,1,3,South Korea,NA,NA,1
+McGrath 2017,#5895,McGrath 2017,8,1,NA,1,4,Australia,NA,NA,2
+Meierbachtol 2017,#5461,Meierbachtol 2017,5,1,NA,1,4,USA,NA,NA,1
+Menzer 2017,#5389,Menzer 2017,9,1,NA,3,3,USA,NA,NA,1
+Myklebust 2017,#4994,Myklebust 2017,4,1,NA,3,3,Norway,NA,Original study is Krosshaug 2016 but no outcomes of interested reported,2
+Nawasreh 2017,#5433,Grindem 2014,4,1,NA,1,4,USA,Grindem 2014,NA,2
+Perraton 2017,#4340,Culvenor 2016,6,1,NA,1,4,Australia,Culvenor 2016,Exclude single hop data as overlaps with Culvenor 2016,2
+Pua 2017,#4158,Pua 2017,5,1,NA,3,3,Singapore,NA,NA,1
+Ueda 2017,#7634,Ueda 2017,5,1,NA,3,3,Japan,NA,NA,1
+Webster 2017,#7687,Webster 2017,5,1,NA,1,4,Australia,NA,NA,2
+Yoo 2017,#7077,Yoo 2017,4,1,NA,3,3,South Korea,NA,NA,2
+Zult 2017,#6901,Zult 2017,6,1,NA,1,4,Netherlands,NA,NA,3
+Akelman 2016,#3550,Fleming 2013,1,1,NA,1,3,USA,Fleming 2013,NA,3
+Bartels 2016,#3463,Bartels 2016,2,1,1,3,3,Germany,NA,NA,2
+Bell 2016,#3050,Bell 2016,6,1,NA,1,4,USA,NA,NA,3
+Culvenor 2016b,#2115,Culvenor 2016,6,1,NA,1,4,Australia,Culvenor 2016,NA,2
+Eiji 2016,#1347,Eiji 2016,2,1,NA,1,3,Japan,NA,NA,2
+Goetschius 2016,#840,Goetschius 2016,6,1,NA,3,4,USA,NA,Combines data from Kuenze 2015 and Goetschius 2013 (not exctracted as n<50 individually).,2
+Grindem 2016,#610,Grindem 2014,4,1,NA,1,3,Norway,Grindem 2014,NA,1
+Jeong-Ku 2016,#386,Jeong-Ku 2016,5,1,NA,1,4,South Korea,NA,NA,2
+Karikis 2016,#6734,Ahlden 2013,1,1,NA,1,4,Sweden,Ahlden 2013,NA,2
+Kilinc 2016,#6839,Kilinc 2016,5,1,1,3,3,Turkey,NA,NA,2
+Konrads 2016,#6831,Konrads 2016,1,1,NA,3,3,Germany,NA,NA,2
+Kyritsis 2016,#6204,Kyritsis 2016,5,1,NA,3,1,Qatar,NA,NA,2
+Labanca 2016,#6194,Labanca 2016,8,1,NA,1,4,Italy,NA,NA,1
+Lee 2016,#6100,Lee 2016,5,1,1,3,3,South Korea,NA,NA,2
+Lepley 2016,#5851,Lepley 2016,4,1,NA,1,4,USA,NA,NA,1
+Risberg 2016,#3996,Aune 2001; Risberg 1999a; Risberg 1999b,4,1,1,3,1,Norway,Aune 2001; Risberg 1999a; Risberg 1999b,"Oiestad, 2013 also",1
+Sasaki 2016,#8597,Sasaki 2016,1,1,NA,3,3,Japan,NA,NA,2
+Chen 2015,#2434,Chen 2015,1,1,NA,1,3,China,NA,NA,2
+Chung 2015a,#2359,Chung 2015a,6,1,NA,1,4,South Korea,NA,NA,2
+Lima 2015,#5746,Lima 2015,6,1,NA,1,3,Brazil,NA,NA,2
+Goetschius 2015,#838,Goetschius 2015,6,1,NA,1,4,USA,NA,NA,2
+Heijne 2015,#555,Heijne 2007,4,1,1,3,1,Sweden,Heijne 2007,Heijne 2010 also,2
+Hsieh 2015,#692,Hsieh 2015,6,1,NA,1,4,USA,NA,NA,2
+Kanamoto 2015,#6847,Kanamoto 2015,5,1,NA,3,3,Japan,NA,NA,1
+Karimi-Mobarakeh 2015,#6729,Karimi-Mobarakeh 2015,1,1,NA,1,3,Iran,NA,NA,2
+Kim 2015a,#6585,Kim 2015a,1,1,NA,1,3,South Korea,NA,NA,2
+Kim 2015b,#6581,Kim 2015b,7,1,NA,1,3,South Korea,NA,NA,2
+Koga 2015a,#6420,Koga 2015a,1,1,NA,1,3,Japan,NA,NA,2
+Koga 2015b,#6421,Koga 2015b,1,1,NA,1,3,Japan,NA,NA,3
+Krolikowska 2015,#6330,Krolikowska 2015,7,1,1,1,3,Poland,NA,NA,3
+Kyung 2015,#6203,Kyung 2015,5,1,1,3,3,South Korea,NA,NA,2
+Laudner 2015,#6574,Laudner 2015,6,1,1,1,3,USA,NA,NA,2
+Lentz 2015,#5867,Lentz 2015,5,1,1,3,3,USA,NA,NA,3
+Mayer 2015,#5929,Mayer 2015,5,1,NA,3,3,USA,NA,NA,2
+Mohtadi 2015,#5264,Mohtadi 2015,1,1,NA,1,3,Canada,NA,NA,3
+Mouzopoulos 2015,#5104,Mouzopoulos 2015,6,1,NA,1,4,Greece,NA,NA,3
+Palmieri-Smith 2015,#4572,Palmieri-Smith 2015,4,1,NA,1,4,USA,NA,NA,3
+Pietrosimone 2015,#4264,Pietrosimone 2015,6,1,1,3,3,USA,NA,NA,2
+Park 2015,#4495,Park 2015,7,1,1,3,3,South Korea,NA,NA,2
+Pua 2015,#4157,Pua 2015,4,1,1,3,1,Singapore,NA,NA,1
+Shelbourne 2015,#8799,Shelbourne 2015,5,1,NA,3,3,USA,NA,NA,2
+Wang 2015a,#7740,Wang 2015a,5,1,NA,1,3,China,NA,NA,2
+Button 2014,#2947,Button 2014,6,1,NA,1,3,UK,NA,NA,3
+Dauty 2014,#2035,Dauty 2014,7,1,NA,1,4,France,NA,NA,2
+Gifstad 2014,#891,Gifstad 2014,1,1,NA,3,4,Norway,NA,NA,2
+Grindem 2014,#615,Grindem 2014,4,1,1,3,1,USA; Norway,NA,NA,2
+Jang 2014,#431,Jang 2014,5,1,1,1,3,South Korea,NA,NA,2
+Koga 2014,#6418,Koga 2014,5,1,NA,1,3,Japan,NA,NA,2
+Leiter 2014,#5878,Leiter 2014,5,1,NA,1,1,Canada,NA,NA,1
+Lepley 2014,#5857,Lepley 2014,6,1,1,3,3,USA,NA,NA,2
+Logerstedt 2014,#5654,Grindem 2014,4,1,1,3,3,USA; Norway,Grindem 2014,NA,4
+Telianidis 2014,#7774,Telianidis 2014,6,1,1,3,3,Australia,NA,NA,2
+Tourville 2014,#8060,Tourville 2014,6,1,NA,1,4,USA,NA,NA,2
+Vermesan 2014,#7495,Vermesan 2014,4,1,NA,3,3,Romania,NA,NA,2
+Ahlden 2013,#3575,Ahlden 2013,1,1,NA,1,4,Sweden,NA,NA,2
+Ericsson 2013,#1905,Ericsson 2013,3,1,NA,3,3,Sweden,NA,NA,2
+Fleming 2013,#1253,Fleming 2013,1,1,NA,1,3,USA,NA,NA,3
+Gifstad 2013,#889,Gifstad 2013,7,1,NA,1,4,Norway,NA,NA,1
+Inagaki 2013,#100,Inagaki 2013,4,1,1,1,4,Japan,NA,NA,2
+Koutras 2013,#6806,Koutras 2013,2,1,1,1,3,USA,NA,NA,2
+Kuenze 2013,#6271,Kuenze 2013,6,1,NA,3,3,USA,NA,NA,2
+Logerstedt 2013,#5651,Logerstedt 2013,4,1,1,3,3,USA,NA,NA,1
+Nakayama 2013,#4941,Nakayama 2013,1,1,1,3,3,Japan,NA,NA,2
+Noh 2013a,#4787,Noh 2013a,1,1,NA,1,3,South Korea,NA,NA,2
+Noh 2013b,#4785,Noh 2013b,1,1,NA,3,3,South Korea,NA,NA,2
+Oiestad 2013,#5116,Aune 2001; Risberg 1999a; Risberg 1999b,4,1,NA,3,3,Norway,Aune 2001; Risberg 1999a; Risberg 1999b,NA,1
+Tugcu 2013,#7990,Tugcu 2013,4,1,1,3,4,Turkey,NA,NA,1
+Ventura 2013,#7506,Ventura 2013,1,1,NA,1,3,Italy,NA,NA,2
+Iriuchishima 2012,#58,Iriuchishima 2012,5,1,1,1,3,Japan,NA,NA,2
+Jiang 2012,#377,Jiang 2012,4,1,NA,3,3,China,NA,NA,2
+Kawahara 2012,#6690,Kawahara 2012,6,1,NA,3,4,Japan,NA,NA,4
+Grindem 2012,#613,Grindem 2014,4,1,1,3,3,Norway,Grindem 2014,NA,2
+Logerstedt 2012,#5653,Logerstedt 2012,4,1,1,3,3,USA; Norway,NA,NA,2
+Lui 2012,#5587,Lui 2012,1,1,NA,3,3,Hong Kong,NA,NA,1
+Lynch 2012,#5571,Lynch 2012,4,1,1,3,3,USA,NA,NA,2
+Nakase 2012,#4943,Nakase 2012,5,1,1,3,4,Japan,NA,NA,2
+Niki 2012,#4822,Niki 2012,5,1,NA,1,4,Japan,NA,NA,2
+Noh 2012,#4786,Noh 2012,1,1,NA,1,3,South Korea,NA,NA,2
+Thomee 2012,#8145,Thomee 2012,5,1,NA,1,3,Sweden,NA,NA,1
+Ardern 2011,#3254,Ardern 2011,5,1,NA,3,3,Australia,NA,NA,1
+Bryant 2011,#2625,Bryant 2011,6,1,NA,1,4,Australia,NA,NA,4
+Czamara 2011b,#2093,Czamara 2011b,5,1,1,3,3,Poland,NA,NA,1
+Fujita 2011,#929,Fujita 2011,1,1,NA,1,1,Japan,NA,NA,3
+Grindem 2011,#611,Grindem 2011,4,1,1,1,3,Norway,NA,NA,2
+Kim 2011,#6539,Kim 2011,7,1,NA,3,3,South Korea,NA,NA,2
+Leal-Blanquet 2011,#6554,Leal-Blanquet 2011,4,1,1,1,3,Spain,NA,NA,3
+Niki 2011,#4821,Niki 2011,4,1,NA,1,1,Japan,NA,NA,3
+Reinke 2011,#4022,Reinke 2011,9,1,1,1,4,USA,NA,NA,4
+Wipfler 2011,#7163,Wipfler 2011,2,1,1,1,4,Germany,NA,NA,2
+Ardern 2010,#3256,Ardern 2010,5,1,NA,1,3,Australia,NA,NA,2
+Barenius 2010,#3490,Eriksson 2001,1,1,1,3,1,Sweden,Eriksson 2001,NA,2
+Czamara 2010a,#2098,Czamara 2010a,8,1,1,3,3,Poland,NA,NA,2
+Dauty 2010,#2036,Dauty 2010,1,1,NA,1,3,France,NA,NA,4
+Eitzen 2010b,#1337,Eitzen 2010b,4,1,NA,1,3,Norway,NA,NA,2
+Eitzen 2010c,#1336,Eitzen 2010; Hartigan 2009,4,1,NA,1,3,Norway,Eitzen 2010; Hartigan 2009,NA,1
+Gao 2010,#1544,Gao 2010,4,1,NA,1,3,China,NA,NA,1
+Ghalayani 2010,#1462,Ghalayani 2010,1,1,NA,1,3,UK,NA,NA,2
+Grant 2010,#772,Grant 2005,1,1,NA,3,3,Canada,Grant 2005,NA,2
+Balki 2019,#3524,Balki 2019,1,1,NA,1,3,Turkey,NA,NA,2
+Hoch 2019,#256,Hoch 2019,9,1,1,1,3,USA,NA,NA,1
+Bando 2017,#3511,Bando 2017,6,1,1,3,3,Japan,NA,NA,2
+Tate 2017,#7811,Tate 2017,6,1,1,3,3,USA,NA,NA,2
+Hall 2015,#1097,Hall 2015,9,1,NA,3,3,USA,NA,NA,2
+Noehren 2014,#4794,Noehren 2014,6,1,1,3,3,USA,NA,NA,2
+Thomas 2013,#8157,Thomas 2013,6,1,NA,1,3,USA,NA,NA,2
+Dalton 2011,#2056,Dalton 2011,6,1,NA,3,3,USA,NA,NA,2
+Hadi 2019,#1119,Hadi 2019,2,1,1,3,3,Iran,NA,NA,4
+Geoghegan 2007,#1494,Geoghegan 2007,7,1,NA,3,3,UK,NA,NA,2
+Urabe 2002,#7612,Urabe 2002,8,1,1,3,3,Japan,NA,NA,1
+Nicholas 2001,#4839,Nicholas 2001,1,1,NA,1,3,USA,NA,NA,2
+Tyler 2004,#8394,Tyler 2004,1,1,1,3,3,USA,NA,NA,2
+Karanikas 2004,#6743,Karanikas 2004,9,1,1,3,3,Germany,NA,NA,3
+Karanikas 2005,#6744,Karanikas 2005,7,1,1,3,3,Germany,NA,NA,2
+Girdwood 2023,NA,Culvenor 2016,4,1,NA,1,1,Australia,Culvenor 2016,NA,1
+Heijne 2010,#553,Heijne 2007,1,1,1,1,3,Sweden,Heijne 2007,Heijne 2010 and Heijne 2015 also,2
+Holm 2010,#766,Aune 2001; Risberg 1999a; Risberg 1999b,1,1,1,1,4,Norway,Aune 2001; Risberg 1999a; Risberg 1999b,NA,2
+Konishi 2010,#6381,Konishi 2010,6,1,1,3,3,Japan,NA,NA,2
+Landes 2010,#6165,Landes 2010,6,1,NA,1,4,USA,NA,NA,3
+Siney 2010,#8360,Siney 2010,4,1,NA,1,3,France,NA,NA,3
+Stener 2010,#8175,Stener 2010,1,1,NA,1,4,Sweden,NA,NA,2
+Sutherland 2010,#7897,Sutherland 2010,8,1,1,3,3,UK,NA,NA,1
+Tengman 2014a,#7770,Tengman 2014a,6,1,NA,1,4,Sweden,NA,Tengman 2014b,3
+Tengman 2014b,#7769,Tengman 2014a,6,1,NA,1,4,Sweden,Tengman 2014a,NA,3
+Hartigan 2009,#1416,Eitzen 2010; Hartigan 2009,1,1,1,3,3,USA,Eitzen 2010; Hartigan 2009,NA,2
+Ejerhed 2003,#1334,Ejerhed 2003; Laxdal 2005,1,1,1,3,1,Sweden,Ejerhed 2003; Laxdal 2005,NA,2
+Laxdal 2005,#6560,Ejerhed 2003; Laxdal 2005,1,1,1,3,4,Sweden,Ejerhed 2003; Laxdal 2005,NA,3
+Eriksson 2001,#1898,Eriksson 2001,1,1,NA,1,4,Sweden,NA,NA,2
+Grant 2005,#769,Grant 2005,1,1,NA,1,3,Canada,NA,NA,2
+Aune 2001,#3176,Aune 2001; Risberg 1999a; Risberg 1999b,1,1,1,3,4,Sweden,Aune 2001; Risberg 1999a; Risberg 1999b,Not linked until later combined in future cohort studies.,2
+Risberg 1999a,#4004,Aune 2001; Risberg 1999a; Risberg 1999b,1,1,1,3,3,Norway,Aune 2001; Risberg 1999a; Risberg 1999b,Not linked until combined in later cohort studies,2
+Risberg 1999b,#4001,Aune 2001; Risberg 1999a; Risberg 1999b,4,1,1,3,3,Norway,Aune 2001; Risberg 1999a; Risberg 1999b,Not linked until combined in later cohort studies,1
+Capin 2019,#2904,Arundale 2017; Capin 2019,1,1,NA,3,3,USA,Arundale 2017; Capin 2019,Arundale 2017 reports Men. Data also duplicated in hutchinson smith 2020 (which looks at graft),2
+Arundale 2017,#3224,Arundale 2017; Capin 2019,1,1,NA,3,3,USA,Arundale 2017; Capin 2019,Capin 2019 reports women,2
+Aizawa 2022,#10412,Aizawa 2022,9,1,NA,1,3,Japan,NA,NA,1
+Alt 2022,#10428,Alt 2022,6,1,NA,1,4,Germany,NA,NA,4
+Arhos 2021,#9312,Arundale 2017; Capin 2019,3,1,NA,1,3,USA,Arundale 2017; Capin 2019,NA,1
+Arumugam 2022,#10452,Arumugam 2022,6,1,1,3,3,Sweden,NA,NA,3
+Balki 2021,#9327,Balki 2021,6,1,1,3,4,Turkey,NA,NA,2
+Beaudoin 2022,#10485,McRae 2013,1,1,1,3,1,Canada,McRae 2013,NA,2
+Bodkin 2021,#9366,Bodkin 2021,6,1,NA,1,4,USA,NA,NA,2
+Bregenhof 2023,#11712,Bregenhof 2023,1,1,NA,1,1,Denmark,NA,NA,2
+Byrne 2021,#9391,Byrne 2021,4,1,NA,3,3,Ireland,NA,NA,3
+Casp 2021,#9400,Casp 2021,6,1,NA,1,4,USA,NA,NA,4
+Chantrelle 2023,#11717,Chantrelle 2023,6,1,NA,3,4,France,NA,NA,2
+Coquard 2022,#10593,Coquard 2022,7,1,1,3,3,France,NA,NA,2
+Costa 2022,#10596,Fleming 2013,3,1,NA,3,3,USA,Fleming 2013,NA,3
+Crotty 2022,#10599,King 2018,8,1,NA,3,3,Ireland,King 2018,"Only quad and hamstring extracted, as hop tests reported in King 2018. ",1
+Czamara 2021,#9476,Czamara 2021,6,1,1,3,3,Poland,NA,NA,3
+Dauty 2022a,#10630,Dauty 2022a,7,1,1,3,3,France,NA,NA,2
+Dauty 2022b,#10631,Dauty 2022b,7,1,NA,3,3,France,NA,NA,2
+Fukuyama 2022,#10753,Fukuyama 2022,6,1,1,3,3,Japan,NA,NA,2
+deSouzaBorges 2022,#10653,deSouzaBorges 2022,1,1,NA,1,4,Brazil,NA,NA,2
+Devitt 2022,#10667,Devitt 2022,4,1,NA,1,3,Australia,NA,NA,2
+Dragicevic 2022,#10680,Dragicevic 2022,7,1,1,3,3,Bosnia & Herzegovina,NA,NA,2
+Drigny 2022,#10681,Drigny 2022,5,1,NA,1,4,France,NA,NA,1
+Duckett 2021,#9523,Duckett 2021,6,1,NA,1,3,USA,NA,NA,2
+Ebert 2021a,#9529,Ebert 2021a,8,1,NA,1,4,Australia,NA,NA,3
+Ebert 2021b,#9533,Ebert 2021a,8,1,NA,1,4,Australia,Ebert 2021a,NA,1
+Ebert 2022a,#10694,Ebert 2022a,8,1,NA,1,4,Australia,NA,NA,2
+Faleide 2021,#9561,Faleide 2021,4,1,NA,3,3,Norway,NA,NA,1
+Faltstrom 2021,#9563,Faltstrom 2021,6,1,NA,1,4,Sweden,NA,NA,2
+Felix 2022,#10726,Felix 2022,6,1,NA,1,3,Brazil,NA,NA,2
+Gauthier 2022,#10765,Gauthier 2022,5,1,NA,3,3,Switzerland,NA,NA,1
+Goto 2022,#10792,Goto 2022,7,1,NA,1,NA,Switzerland,NA,NA,2
+Grondin 2022,#10801,Grondin 2022,5,1,NA,3,3,France,NA,NA,2
+Hart 2022,#10826,Hart 2022,7,1,NA,1,4,Ireland,NA,NA,2
+Hogberg 2023,#11745,Hogberg 2023,5,1,NA,3,3,Sweden,NA,NA,4
+Hunnicutt 2021,#9714,Hunnicutt 2021,5,1,NA,1,3,USA,NA,NA,1
+Ivarsson 2022,#10899,Ivarsson 2022,9,1,NA,3,3,Sweden,NA,NA,1
+Iwame 2021,#9729,Iwame 2021,9,1,NA,3,3,Japan,NA,NA,1
+Jeon 2022,#10911,Jeon 2022,5,1,NA,1,4,South Korea,NA,NA,1
+Jiang 2021,#9742,Jiang 2021,5,1,NA,3,3,China,NA,NA,2
+Johnston 2022,#10922,Johnston 2020,4,1,NA,1,4,Australia,Johnston 2020,"Same cohort longitudinally as Johnston 2020, will need to exclude 2020",2
+Keays 2022,#10950,Keays 2022,4,1,1,3,1,Australia,NA,NA,2
+Kim 2022,#10973,Kim 2022,5,1,NA,3,3,South Korea,NA,NA,3
+Kim 2023,#11759,Kim 2023,5,1,NA,1,4,South Korea,NA,NA,1
+King 2021,#9783,King 2021,7,1,NA,1,4,Ireland,NA,NA,2
+Lee 2021,#9832,Lee 2021,5,1,NA,3,3,South Korea,NA,NA,1
+Li 2022,#11043,Li 2022,1,1,1,3,3,China,NA,NA,2
+Manchado 2022,#11087,Manchado 2022,6,1,NA,3,4,Spain,NA,NA,3
+Manchado 2021,#9890,Manchado 2021,6,1,NA,1,4,Spain,NA,NA,2
+Markstrom 2023,#11772,Markstrom 2023,6,1,1,3,3,Sweden,NA,NA,2
+Mesnard 2022,#11123,Mesnard 2022,5,1,NA,1,4,France,NA,NA,2
+Moran 2022a,#11152,Moran 2022a,4,1,NA,3,3,USA,NA,NA,1
+Moran 2022b,#11153,Moran 2022b,5,1,NA,3,3,USA,NA,NA,1
+Murakami 2023,#11783,Murakami 2023,5,1,NA,3,3,Japan,NA,NA,2
+Ohji 2021,#10026,Ohji 2021,9,1,NA,3,3,Japan,NA,NA,1
+Oliveira 2022,#11226,Oliveira 2022,1,1,NA,1,4,Brazil,NA,NA,2
+Pedersen 2021,#10064,Grindem 2014,4,1,NA,1,1,USA; Norway,Grindem 2014,NA,1
+Piussi 2022,#10085,Piussi 2022,4,1,1,1,1,Sweden,NA,NA,2
+Powers 2022,#11300,Powers 2022,9,1,1,3,3,USA,NA,NA,1
+Qiu 2022,#11308,Qiu 2022,9,1,NA,1,3,Hong Kong,NA,NA,2
+Rahova 2022,#11316,Rahova 2022,6,1,1,3,3,Turkey,NA,NA,2
+Read 2021,#10119,Read 2021,9,1,NA,1,3,Qatar,NA,NA,1
+Read 2022,#11330,Read 2022,6,1,NA,1,4,Qatar,NA,NA,2
+Runer 2022,#11362,Runer 2022,4,1,NA,3,1,Austria,NA,NA,2
+Salatkaite 2021,#10156,Salatkaite 2021,9,1,NA,1,3,Lithuania,NA,NA,2
+SanJose 2023,#11805,SanJose 2023,4,1,NA,3,3,Australia,NA,NA,1
+Schwery 2022,#11399,Schwery 2022,4,1,NA,1,4,USA,NA,NA,5
+Sengoku 2022,#11409,Sengoku 2022,5,1,1,3,3,Japan,NA,NA,2
+Severyns 2022,#11412,Severyns 2022,5,1,NA,3,1,France,NA,NA,2
+Shelbourne 2022,#11417,Shelbourne 2022,5,1,NA,3,4,USA,NA,NA,1
+Slater 2022,#11437,Slater 2022,6,1,NA,3,3,USA,NA,NA,2
+Sonesson 2021a,#10212,Sonesson 2021a,4,1,1,3,3,Sweden,NA,NA,1
+Straub 2022,#11470,Straub 2022,5,1,1,3,3,USA,NA,NA,1
+Suh 2021,#10237,Suh 2021,5,1,NA,1,3,South Korea,NA,NA,2
+Sullivan 2022,#11478,Sullivan 2022,7,1,NA,1,3,USA,NA,NA,2
+Suzuki 2022,#11485,Suzuki 2022,4,1,NA,1,4,Japan,NA,NA,1
+Thompson 2022,#11512,Thompson 2022,4,1,NA,1,4,USA,NA,NA,2
+Ueda 2022,#11536,Ueda 2022,9,1,1,1,4,Japan,NA,NA,1
+Ueda 2021,#10279,Ueda 2021,9,1,NA,1,3,Japan,NA,NA,1
+Vijayan 2021a,#10300,Vijayan 2021a,5,1,NA,1,3,India,NA,NA,2
+Vijayan 2021b,#10302,Vijayan 2021b,5,1,1,1,3,India,NA,NA,1
+Walaszek 2022,#11576,Walaszek 2022,9,1,NA,3,3,USA,NA,NA,4
+Wenning 2023,#11833,Wenning 2023,4,1,NA,3,3,Germany,NA,NA,4
+Zore 2021,#10390,Zore 2021,5,1,NA,1,1,Slovenia,NA,NA,1
+Zumstein 2022,#11692,Zumstein 2022,5,1,1,3,4,Switzerland,NA,NA,2
+DeFroda 2021,#9495,Fleming 2013,1,1,NA,3,4,USA,Fleming 2013,NA,2
+Ohsawa 2021,#10031,Ohsawa 2021,5,1,1,3,3,Japan,NA,NA,2
+Plocki 2022,#11293,Plocki 2022,8,1,NA,1,4,Poland,NA,NA,1
+Sonesson 2021b,#10213,Sonesson 2021b,8,1,NA,1,1,Sweden,NA,NA,1
+Wongcharoenwatana 2019,#7129,Wongcharoenwatana 2019,8,1,1,3,3,Thailand,NA,NA,1
+Raoul 2018,#4078,Raoul 2018,5,1,NA,1,3,France,NA,NA,1
+Zhi-Cheng 2018,#6923,Zhi-Cheng 2018,4,1,NA,1,3,China,NA,NA,1
+Mitomo 2023,#11779,Mitomo 2023,5,1,NA,1,4,Japan,NA,NA,1
+Marigi 2022,#11090,Marigi 2022,5,1,NA,3,1,USA,NA,NA,2
+Czamara 2010b,#2097,Czamara 2010b,6,1,1,3,3,Poland,NA,NA,2
+Kim 2019,#6528,Kim 2019,5,1,NA,1,3,South Korea,NA,NA,4
+Krych 2015,#6282,Krych 2015,5,1,NA,1,3,USA,NA,NA,2
+Tajima 2020,#7868,Tajima 2020,7,1,NA,3,3,Japan,NA,NA,2
+Ageberg 2016,#3595,Ageberg 2016,3,1,1,3,3,Sweden,NA,NA,1
+Goetschius 2019,#839,Goetschius 2019,2,1,1,3,3,USA,NA,NA,3
+Beretta-Piccoli 2016,#3011,Beretta-Piccoli 2016,6,1,1,3,3,Switzerland,NA,NA,3
+Bjornsson 2016,#2841,Ejerhed 2003; Laxdal 2005,3,1,NA,1,1,Sweden,Ejerhed 2003; Laxdal 2005,NA,2
+Rhatomy 2019,#9160,Rhatomy 2019,8,1,1,1,3,Indonesia,NA,NA,1
+Pietrosimone 2016,#4268,Pietrosimone 2016,8,1,0,3,4,USA,NA,NA,1
